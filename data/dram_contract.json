@@ -1,0 +1,85 @@
+{
+  "title": "DRAM Contract Average Price",
+  "unit": "USD",
+  "specs": [
+    "DDR4 PC",
+    "DDR5 PC",
+    "DDR4 Server",
+    "DDR5 Server"
+  ],
+  "history": [
+    {
+      "quarter": "Q3 2028",
+      "year": 2028,
+      "quarter_num": 3,
+      "DDR4 PC": 15.37,
+      "DDR5 PC": 22.2,
+      "DDR4 Server": 68.24,
+      "DDR5 Server": 89.64
+    },
+    {
+      "quarter": "Q4 2028",
+      "year": 2028,
+      "quarter_num": 4,
+      "DDR4 PC": 17.1,
+      "DDR5 PC": 20.8,
+      "DDR4 Server": 66.08,
+      "DDR5 Server": 96.83
+    },
+    {
+      "quarter": "Q1 2027",
+      "year": 2027,
+      "quarter_num": 1,
+      "DDR4 PC": 17.32,
+      "DDR5 PC": 23.07,
+      "DDR4 Server": 66.7,
+      "DDR5 Server": 103.06
+    },
+    {
+      "quarter": "Q2 2027",
+      "year": 2027,
+      "quarter_num": 2,
+      "DDR4 PC": 17.4,
+      "DDR5 PC": 22.22,
+      "DDR4 Server": 66.98,
+      "DDR5 Server": 102.14
+    },
+    {
+      "quarter": "Q3 2027",
+      "year": 2027,
+      "quarter_num": 3,
+      "DDR4 PC": 17.09,
+      "DDR5 PC": 24.24,
+      "DDR4 Server": 72.93,
+      "DDR5 Server": 104.93
+    },
+    {
+      "quarter": "Q4 2027",
+      "year": 2027,
+      "quarter_num": 4,
+      "DDR4 PC": 17.05,
+      "DDR5 PC": 23.13,
+      "DDR4 Server": 70.19,
+      "DDR5 Server": 110.58
+    },
+    {
+      "quarter": "Q1 2026",
+      "year": 2026,
+      "quarter_num": 1,
+      "DDR4 PC": 17.73,
+      "DDR5 PC": 23.37,
+      "DDR4 Server": 74.78,
+      "DDR5 Server": 107.76
+    },
+    {
+      "quarter": "Q2 2026",
+      "year": 2026,
+      "quarter_num": 2,
+      "DDR4 PC": 19.14,
+      "DDR5 PC": 24.41,
+      "DDR4 Server": 75.67,
+      "DDR5 Server": 112.52
+    }
+  ],
+  "last_updated": "2026-06-22 14:36:59"
+}

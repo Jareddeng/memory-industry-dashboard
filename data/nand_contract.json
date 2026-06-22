@@ -1,0 +1,94 @@
+{
+  "title": "NAND Flash Contract Average Price",
+  "unit": "USD",
+  "specs": [
+    "eMMC 128GB",
+    "eMMC 256GB",
+    "SSD 256GB",
+    "SSD 512GB",
+    "SSD 1TB"
+  ],
+  "history": [
+    {
+      "quarter": "Q3 2028",
+      "year": 2028,
+      "quarter_num": 3,
+      "eMMC 128GB": 7.83,
+      "eMMC 256GB": 12.19,
+      "SSD 256GB": 19.03,
+      "SSD 512GB": 32.97,
+      "SSD 1TB": 57.08
+    },
+    {
+      "quarter": "Q4 2028",
+      "year": 2028,
+      "quarter_num": 4,
+      "eMMC 128GB": 7.93,
+      "eMMC 256GB": 13.14,
+      "SSD 256GB": 20.71,
+      "SSD 512GB": 33.74,
+      "SSD 1TB": 59.43
+    },
+    {
+      "quarter": "Q1 2027",
+      "year": 2027,
+      "quarter_num": 1,
+      "eMMC 128GB": 7.79,
+      "eMMC 256GB": 13.23,
+      "SSD 256GB": 21.14,
+      "SSD 512GB": 35.78,
+      "SSD 1TB": 58.89
+    },
+    {
+      "quarter": "Q2 2027",
+      "year": 2027,
+      "quarter_num": 2,
+      "eMMC 128GB": 7.75,
+      "eMMC 256GB": 13.67,
+      "SSD 256GB": 21.18,
+      "SSD 512GB": 35.86,
+      "SSD 1TB": 62.84
+    },
+    {
+      "quarter": "Q3 2027",
+      "year": 2027,
+      "quarter_num": 3,
+      "eMMC 128GB": 8.4,
+      "eMMC 256GB": 13.49,
+      "SSD 256GB": 21.79,
+      "SSD 512GB": 36.72,
+      "SSD 1TB": 63.23
+    },
+    {
+      "quarter": "Q4 2027",
+      "year": 2027,
+      "quarter_num": 4,
+      "eMMC 128GB": 8.49,
+      "eMMC 256GB": 13.75,
+      "SSD 256GB": 21.29,
+      "SSD 512GB": 35.35,
+      "SSD 1TB": 64.71
+    },
+    {
+      "quarter": "Q1 2026",
+      "year": 2026,
+      "quarter_num": 1,
+      "eMMC 128GB": 8.5,
+      "eMMC 256GB": 13.67,
+      "SSD 256GB": 22.47,
+      "SSD 512GB": 36.28,
+      "SSD 1TB": 63.49
+    },
+    {
+      "quarter": "Q2 2026",
+      "year": 2026,
+      "quarter_num": 2,
+      "eMMC 128GB": 8.25,
+      "eMMC 256GB": 14.11,
+      "SSD 256GB": 21.88,
+      "SSD 512GB": 38.69,
+      "SSD 1TB": 63.68
+    }
+  ],
+  "last_updated": "2026-06-22 14:36:59"
+}

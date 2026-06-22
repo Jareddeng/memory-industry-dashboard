@@ -1,0 +1,81 @@
+name: Update Dashboard Data
+
+on:
+  schedule:
+    - cron: '0 1,13 * * *'  # 每天 09:00 和 21:00 (北京时间 UTC+8)
+  workflow_dispatch:  # 允许手动触发
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install yfinance pandas requests
+
+      - name: Fetch stock data
+        run: python scripts/fetch_stock_data.py
+
+      - name: Fetch memory prices
+        run: python scripts/fetch_memory_prices.py
+
+      - name: Update report template
+        run: python scripts/update_report.py
+
+      - name: Check for data changes
+        id: check_changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/ reports/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push data updates
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git commit -m "🔄 Auto-update: $(date +'%Y-%m-%d %H:%M')"
+          git push
+
+  build-and-deploy:
+    needs: update-data
+    runs-on: ubuntu-latest
+    if: always()  # 即使数据更新失败也部署，确保网站可用
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.'  # 部署整个仓库根目录
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

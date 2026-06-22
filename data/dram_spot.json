@@ -1,0 +1,1038 @@
+{
+  "title": "DRAM Spot Price Trends",
+  "unit": "USD",
+  "specs": [
+    "DDR4 8Gb 1Gx8",
+    "DDR4 16Gb 2Gx8",
+    "DDR5 8Gb 1Gx8",
+    "DDR5 16Gb 2Gx8",
+    "LPDDR5 8Gb"
+  ],
+  "history": [
+    {
+      "date": "2025-12-24",
+      "DDR4 8Gb 1Gx8": 1.382,
+      "DDR4 16Gb 2Gx8": 2.826,
+      "DDR5 8Gb 1Gx8": 1.826,
+      "DDR5 16Gb 2Gx8": 3.503,
+      "LPDDR5 8Gb": 2.087
+    },
+    {
+      "date": "2025-12-25",
+      "DDR4 8Gb 1Gx8": 1.401,
+      "DDR4 16Gb 2Gx8": 2.889,
+      "DDR5 8Gb 1Gx8": 1.841,
+      "DDR5 16Gb 2Gx8": 3.536,
+      "LPDDR5 8Gb": 2.064
+    },
+    {
+      "date": "2025-12-26",
+      "DDR4 8Gb 1Gx8": 1.323,
+      "DDR4 16Gb 2Gx8": 2.795,
+      "DDR5 8Gb 1Gx8": 1.822,
+      "DDR5 16Gb 2Gx8": 3.586,
+      "LPDDR5 8Gb": 2.16
+    },
+    {
+      "date": "2025-12-29",
+      "DDR4 8Gb 1Gx8": 1.345,
+      "DDR4 16Gb 2Gx8": 2.831,
+      "DDR5 8Gb 1Gx8": 1.818,
+      "DDR5 16Gb 2Gx8": 3.431,
+      "LPDDR5 8Gb": 2.146
+    },
+    {
+      "date": "2025-12-30",
+      "DDR4 8Gb 1Gx8": 1.389,
+      "DDR4 16Gb 2Gx8": 2.815,
+      "DDR5 8Gb 1Gx8": 1.913,
+      "DDR5 16Gb 2Gx8": 3.446,
+      "LPDDR5 8Gb": 2.119
+    },
+    {
+      "date": "2025-12-31",
+      "DDR4 8Gb 1Gx8": 1.396,
+      "DDR4 16Gb 2Gx8": 2.873,
+      "DDR5 8Gb 1Gx8": 1.857,
+      "DDR5 16Gb 2Gx8": 3.501,
+      "LPDDR5 8Gb": 2.087
+    },
+    {
+      "date": "2026-01-01",
+      "DDR4 8Gb 1Gx8": 1.374,
+      "DDR4 16Gb 2Gx8": 2.762,
+      "DDR5 8Gb 1Gx8": 1.833,
+      "DDR5 16Gb 2Gx8": 3.432,
+      "LPDDR5 8Gb": 2.156
+    },
+    {
+      "date": "2026-01-02",
+      "DDR4 8Gb 1Gx8": 1.338,
+      "DDR4 16Gb 2Gx8": 2.884,
+      "DDR5 8Gb 1Gx8": 1.833,
+      "DDR5 16Gb 2Gx8": 3.54,
+      "LPDDR5 8Gb": 2.111
+    },
+    {
+      "date": "2026-01-05",
+      "DDR4 8Gb 1Gx8": 1.335,
+      "DDR4 16Gb 2Gx8": 2.773,
+      "DDR5 8Gb 1Gx8": 1.857,
+      "DDR5 16Gb 2Gx8": 3.443,
+      "LPDDR5 8Gb": 2.08
+    },
+    {
+      "date": "2026-01-06",
+      "DDR4 8Gb 1Gx8": 1.347,
+      "DDR4 16Gb 2Gx8": 2.799,
+      "DDR5 8Gb 1Gx8": 1.839,
+      "DDR5 16Gb 2Gx8": 3.587,
+      "LPDDR5 8Gb": 2.156
+    },
+    {
+      "date": "2026-01-07",
+      "DDR4 8Gb 1Gx8": 1.383,
+      "DDR4 16Gb 2Gx8": 2.849,
+      "DDR5 8Gb 1Gx8": 1.833,
+      "DDR5 16Gb 2Gx8": 3.619,
+      "LPDDR5 8Gb": 2.065
+    },
+    {
+      "date": "2026-01-08",
+      "DDR4 8Gb 1Gx8": 1.339,
+      "DDR4 16Gb 2Gx8": 2.72,
+      "DDR5 8Gb 1Gx8": 1.807,
+      "DDR5 16Gb 2Gx8": 3.456,
+      "LPDDR5 8Gb": 2.024
+    },
+    {
+      "date": "2026-01-09",
+      "DDR4 8Gb 1Gx8": 1.317,
+      "DDR4 16Gb 2Gx8": 2.761,
+      "DDR5 8Gb 1Gx8": 1.858,
+      "DDR5 16Gb 2Gx8": 3.441,
+      "LPDDR5 8Gb": 2.106
+    },
+    {
+      "date": "2026-01-12",
+      "DDR4 8Gb 1Gx8": 1.356,
+      "DDR4 16Gb 2Gx8": 2.769,
+      "DDR5 8Gb 1Gx8": 1.803,
+      "DDR5 16Gb 2Gx8": 3.547,
+      "LPDDR5 8Gb": 2.051
+    },
+    {
+      "date": "2026-01-13",
+      "DDR4 8Gb 1Gx8": 1.349,
+      "DDR4 16Gb 2Gx8": 2.719,
+      "DDR5 8Gb 1Gx8": 1.786,
+      "DDR5 16Gb 2Gx8": 3.467,
+      "LPDDR5 8Gb": 2.051
+    },
+    {
+      "date": "2026-01-14",
+      "DDR4 8Gb 1Gx8": 1.362,
+      "DDR4 16Gb 2Gx8": 2.692,
+      "DDR5 8Gb 1Gx8": 1.854,
+      "DDR5 16Gb 2Gx8": 3.428,
+      "LPDDR5 8Gb": 2.068
+    },
+    {
+      "date": "2026-01-15",
+      "DDR4 8Gb 1Gx8": 1.339,
+      "DDR4 16Gb 2Gx8": 2.834,
+      "DDR5 8Gb 1Gx8": 1.817,
+      "DDR5 16Gb 2Gx8": 3.492,
+      "LPDDR5 8Gb": 2.061
+    },
+    {
+      "date": "2026-01-16",
+      "DDR4 8Gb 1Gx8": 1.301,
+      "DDR4 16Gb 2Gx8": 2.699,
+      "DDR5 8Gb 1Gx8": 1.843,
+      "DDR5 16Gb 2Gx8": 3.374,
+      "LPDDR5 8Gb": 2.038
+    },
+    {
+      "date": "2026-01-19",
+      "DDR4 8Gb 1Gx8": 1.341,
+      "DDR4 16Gb 2Gx8": 2.694,
+      "DDR5 8Gb 1Gx8": 1.838,
+      "DDR5 16Gb 2Gx8": 3.435,
+      "LPDDR5 8Gb": 2.081
+    },
+    {
+      "date": "2026-01-20",
+      "DDR4 8Gb 1Gx8": 1.348,
+      "DDR4 16Gb 2Gx8": 2.777,
+      "DDR5 8Gb 1Gx8": 1.873,
+      "DDR5 16Gb 2Gx8": 3.386,
+      "LPDDR5 8Gb": 2.106
+    },
+    {
+      "date": "2026-01-21",
+      "DDR4 8Gb 1Gx8": 1.317,
+      "DDR4 16Gb 2Gx8": 2.842,
+      "DDR5 8Gb 1Gx8": 1.791,
+      "DDR5 16Gb 2Gx8": 3.386,
+      "LPDDR5 8Gb": 2.121
+    },
+    {
+      "date": "2026-01-22",
+      "DDR4 8Gb 1Gx8": 1.325,
+      "DDR4 16Gb 2Gx8": 2.746,
+      "DDR5 8Gb 1Gx8": 1.821,
+      "DDR5 16Gb 2Gx8": 3.46,
+      "LPDDR5 8Gb": 2.027
+    },
+    {
+      "date": "2026-01-23",
+      "DDR4 8Gb 1Gx8": 1.379,
+      "DDR4 16Gb 2Gx8": 2.802,
+      "DDR5 8Gb 1Gx8": 1.813,
+      "DDR5 16Gb 2Gx8": 3.475,
+      "LPDDR5 8Gb": 2.066
+    },
+    {
+      "date": "2026-01-26",
+      "DDR4 8Gb 1Gx8": 1.394,
+      "DDR4 16Gb 2Gx8": 2.844,
+      "DDR5 8Gb 1Gx8": 1.923,
+      "DDR5 16Gb 2Gx8": 3.612,
+      "LPDDR5 8Gb": 2.179
+    },
+    {
+      "date": "2026-01-27",
+      "DDR4 8Gb 1Gx8": 1.362,
+      "DDR4 16Gb 2Gx8": 2.9,
+      "DDR5 8Gb 1Gx8": 1.852,
+      "DDR5 16Gb 2Gx8": 3.544,
+      "LPDDR5 8Gb": 2.088
+    },
+    {
+      "date": "2026-01-28",
+      "DDR4 8Gb 1Gx8": 1.401,
+      "DDR4 16Gb 2Gx8": 2.781,
+      "DDR5 8Gb 1Gx8": 1.87,
+      "DDR5 16Gb 2Gx8": 3.52,
+      "LPDDR5 8Gb": 2.067
+    },
+    {
+      "date": "2026-01-29",
+      "DDR4 8Gb 1Gx8": 1.378,
+      "DDR4 16Gb 2Gx8": 2.899,
+      "DDR5 8Gb 1Gx8": 1.865,
+      "DDR5 16Gb 2Gx8": 3.472,
+      "LPDDR5 8Gb": 2.072
+    },
+    {
+      "date": "2026-01-30",
+      "DDR4 8Gb 1Gx8": 1.349,
+      "DDR4 16Gb 2Gx8": 2.797,
+      "DDR5 8Gb 1Gx8": 1.813,
+      "DDR5 16Gb 2Gx8": 3.444,
+      "LPDDR5 8Gb": 2.1
+    },
+    {
+      "date": "2026-02-02",
+      "DDR4 8Gb 1Gx8": 1.371,
+      "DDR4 16Gb 2Gx8": 2.875,
+      "DDR5 8Gb 1Gx8": 1.862,
+      "DDR5 16Gb 2Gx8": 3.485,
+      "LPDDR5 8Gb": 2.072
+    },
+    {
+      "date": "2026-02-03",
+      "DDR4 8Gb 1Gx8": 1.392,
+      "DDR4 16Gb 2Gx8": 2.91,
+      "DDR5 8Gb 1Gx8": 1.829,
+      "DDR5 16Gb 2Gx8": 3.578,
+      "LPDDR5 8Gb": 2.139
+    },
+    {
+      "date": "2026-02-04",
+      "DDR4 8Gb 1Gx8": 1.334,
+      "DDR4 16Gb 2Gx8": 2.825,
+      "DDR5 8Gb 1Gx8": 1.838,
+      "DDR5 16Gb 2Gx8": 3.533,
+      "LPDDR5 8Gb": 2.122
+    },
+    {
+      "date": "2026-02-05",
+      "DDR4 8Gb 1Gx8": 1.339,
+      "DDR4 16Gb 2Gx8": 2.812,
+      "DDR5 8Gb 1Gx8": 1.857,
+      "DDR5 16Gb 2Gx8": 3.502,
+      "LPDDR5 8Gb": 2.148
+    },
+    {
+      "date": "2026-02-06",
+      "DDR4 8Gb 1Gx8": 1.323,
+      "DDR4 16Gb 2Gx8": 2.877,
+      "DDR5 8Gb 1Gx8": 1.873,
+      "DDR5 16Gb 2Gx8": 3.528,
+      "LPDDR5 8Gb": 2.13
+    },
+    {
+      "date": "2026-02-09",
+      "DDR4 8Gb 1Gx8": 1.33,
+      "DDR4 16Gb 2Gx8": 2.837,
+      "DDR5 8Gb 1Gx8": 1.794,
+      "DDR5 16Gb 2Gx8": 3.512,
+      "LPDDR5 8Gb": 2.132
+    },
+    {
+      "date": "2026-02-10",
+      "DDR4 8Gb 1Gx8": 1.374,
+      "DDR4 16Gb 2Gx8": 2.802,
+      "DDR5 8Gb 1Gx8": 1.798,
+      "DDR5 16Gb 2Gx8": 3.436,
+      "LPDDR5 8Gb": 2.1
+    },
+    {
+      "date": "2026-02-11",
+      "DDR4 8Gb 1Gx8": 1.367,
+      "DDR4 16Gb 2Gx8": 2.852,
+      "DDR5 8Gb 1Gx8": 1.805,
+      "DDR5 16Gb 2Gx8": 3.512,
+      "LPDDR5 8Gb": 2.106
+    },
+    {
+      "date": "2026-02-12",
+      "DDR4 8Gb 1Gx8": 1.327,
+      "DDR4 16Gb 2Gx8": 2.756,
+      "DDR5 8Gb 1Gx8": 1.847,
+      "DDR5 16Gb 2Gx8": 3.376,
+      "LPDDR5 8Gb": 2.128
+    },
+    {
+      "date": "2026-02-13",
+      "DDR4 8Gb 1Gx8": 1.318,
+      "DDR4 16Gb 2Gx8": 2.816,
+      "DDR5 8Gb 1Gx8": 1.883,
+      "DDR5 16Gb 2Gx8": 3.376,
+      "LPDDR5 8Gb": 2.038
+    },
+    {
+      "date": "2026-02-16",
+      "DDR4 8Gb 1Gx8": 1.339,
+      "DDR4 16Gb 2Gx8": 2.831,
+      "DDR5 8Gb 1Gx8": 1.869,
+      "DDR5 16Gb 2Gx8": 3.535,
+      "LPDDR5 8Gb": 2.107
+    },
+    {
+      "date": "2026-02-17",
+      "DDR4 8Gb 1Gx8": 1.318,
+      "DDR4 16Gb 2Gx8": 2.693,
+      "DDR5 8Gb 1Gx8": 1.794,
+      "DDR5 16Gb 2Gx8": 3.533,
+      "LPDDR5 8Gb": 2.063
+    },
+    {
+      "date": "2026-02-18",
+      "DDR4 8Gb 1Gx8": 1.328,
+      "DDR4 16Gb 2Gx8": 2.821,
+      "DDR5 8Gb 1Gx8": 1.853,
+      "DDR5 16Gb 2Gx8": 3.372,
+      "LPDDR5 8Gb": 2.029
+    },
+    {
+      "date": "2026-02-19",
+      "DDR4 8Gb 1Gx8": 1.372,
+      "DDR4 16Gb 2Gx8": 2.81,
+      "DDR5 8Gb 1Gx8": 1.789,
+      "DDR5 16Gb 2Gx8": 3.491,
+      "LPDDR5 8Gb": 2.068
+    },
+    {
+      "date": "2026-02-20",
+      "DDR4 8Gb 1Gx8": 1.305,
+      "DDR4 16Gb 2Gx8": 2.757,
+      "DDR5 8Gb 1Gx8": 1.786,
+      "DDR5 16Gb 2Gx8": 3.398,
+      "LPDDR5 8Gb": 2.095
+    },
+    {
+      "date": "2026-02-23",
+      "DDR4 8Gb 1Gx8": 1.374,
+      "DDR4 16Gb 2Gx8": 2.798,
+      "DDR5 8Gb 1Gx8": 1.828,
+      "DDR5 16Gb 2Gx8": 3.56,
+      "LPDDR5 8Gb": 2.154
+    },
+    {
+      "date": "2026-02-24",
+      "DDR4 8Gb 1Gx8": 1.369,
+      "DDR4 16Gb 2Gx8": 2.809,
+      "DDR5 8Gb 1Gx8": 1.851,
+      "DDR5 16Gb 2Gx8": 3.621,
+      "LPDDR5 8Gb": 2.17
+    },
+    {
+      "date": "2026-02-25",
+      "DDR4 8Gb 1Gx8": 1.388,
+      "DDR4 16Gb 2Gx8": 2.804,
+      "DDR5 8Gb 1Gx8": 1.835,
+      "DDR5 16Gb 2Gx8": 3.457,
+      "LPDDR5 8Gb": 2.162
+    },
+    {
+      "date": "2026-02-26",
+      "DDR4 8Gb 1Gx8": 1.398,
+      "DDR4 16Gb 2Gx8": 2.827,
+      "DDR5 8Gb 1Gx8": 1.875,
+      "DDR5 16Gb 2Gx8": 3.441,
+      "LPDDR5 8Gb": 2.095
+    },
+    {
+      "date": "2026-02-27",
+      "DDR4 8Gb 1Gx8": 1.402,
+      "DDR4 16Gb 2Gx8": 2.799,
+      "DDR5 8Gb 1Gx8": 1.909,
+      "DDR5 16Gb 2Gx8": 3.553,
+      "LPDDR5 8Gb": 2.172
+    },
+    {
+      "date": "2026-03-02",
+      "DDR4 8Gb 1Gx8": 1.347,
+      "DDR4 16Gb 2Gx8": 2.878,
+      "DDR5 8Gb 1Gx8": 1.846,
+      "DDR5 16Gb 2Gx8": 3.596,
+      "LPDDR5 8Gb": 2.157
+    },
+    {
+      "date": "2026-03-03",
+      "DDR4 8Gb 1Gx8": 1.39,
+      "DDR4 16Gb 2Gx8": 2.859,
+      "DDR5 8Gb 1Gx8": 1.82,
+      "DDR5 16Gb 2Gx8": 3.473,
+      "LPDDR5 8Gb": 2.173
+    },
+    {
+      "date": "2026-03-04",
+      "DDR4 8Gb 1Gx8": 1.351,
+      "DDR4 16Gb 2Gx8": 2.799,
+      "DDR5 8Gb 1Gx8": 1.833,
+      "DDR5 16Gb 2Gx8": 3.467,
+      "LPDDR5 8Gb": 2.116
+    },
+    {
+      "date": "2026-03-05",
+      "DDR4 8Gb 1Gx8": 1.324,
+      "DDR4 16Gb 2Gx8": 2.9,
+      "DDR5 8Gb 1Gx8": 1.92,
+      "DDR5 16Gb 2Gx8": 3.431,
+      "LPDDR5 8Gb": 2.096
+    },
+    {
+      "date": "2026-03-06",
+      "DDR4 8Gb 1Gx8": 1.333,
+      "DDR4 16Gb 2Gx8": 2.861,
+      "DDR5 8Gb 1Gx8": 1.822,
+      "DDR5 16Gb 2Gx8": 3.478,
+      "LPDDR5 8Gb": 2.066
+    },
+    {
+      "date": "2026-03-09",
+      "DDR4 8Gb 1Gx8": 1.359,
+      "DDR4 16Gb 2Gx8": 2.803,
+      "DDR5 8Gb 1Gx8": 1.842,
+      "DDR5 16Gb 2Gx8": 3.568,
+      "LPDDR5 8Gb": 2.121
+    },
+    {
+      "date": "2026-03-10",
+      "DDR4 8Gb 1Gx8": 1.298,
+      "DDR4 16Gb 2Gx8": 2.824,
+      "DDR5 8Gb 1Gx8": 1.878,
+      "DDR5 16Gb 2Gx8": 3.365,
+      "LPDDR5 8Gb": 2.05
+    },
+    {
+      "date": "2026-03-11",
+      "DDR4 8Gb 1Gx8": 1.358,
+      "DDR4 16Gb 2Gx8": 2.732,
+      "DDR5 8Gb 1Gx8": 1.843,
+      "DDR5 16Gb 2Gx8": 3.435,
+      "LPDDR5 8Gb": 2.083
+    },
+    {
+      "date": "2026-03-12",
+      "DDR4 8Gb 1Gx8": 1.365,
+      "DDR4 16Gb 2Gx8": 2.765,
+      "DDR5 8Gb 1Gx8": 1.786,
+      "DDR5 16Gb 2Gx8": 3.517,
+      "LPDDR5 8Gb": 2.099
+    },
+    {
+      "date": "2026-03-13",
+      "DDR4 8Gb 1Gx8": 1.298,
+      "DDR4 16Gb 2Gx8": 2.777,
+      "DDR5 8Gb 1Gx8": 1.869,
+      "DDR5 16Gb 2Gx8": 3.387,
+      "LPDDR5 8Gb": 2.051
+    },
+    {
+      "date": "2026-03-16",
+      "DDR4 8Gb 1Gx8": 1.359,
+      "DDR4 16Gb 2Gx8": 2.787,
+      "DDR5 8Gb 1Gx8": 1.803,
+      "DDR5 16Gb 2Gx8": 3.368,
+      "LPDDR5 8Gb": 2.099
+    },
+    {
+      "date": "2026-03-17",
+      "DDR4 8Gb 1Gx8": 1.371,
+      "DDR4 16Gb 2Gx8": 2.815,
+      "DDR5 8Gb 1Gx8": 1.792,
+      "DDR5 16Gb 2Gx8": 3.476,
+      "LPDDR5 8Gb": 2.039
+    },
+    {
+      "date": "2026-03-18",
+      "DDR4 8Gb 1Gx8": 1.361,
+      "DDR4 16Gb 2Gx8": 2.778,
+      "DDR5 8Gb 1Gx8": 1.882,
+      "DDR5 16Gb 2Gx8": 3.428,
+      "LPDDR5 8Gb": 2.092
+    },
+    {
+      "date": "2026-03-19",
+      "DDR4 8Gb 1Gx8": 1.319,
+      "DDR4 16Gb 2Gx8": 2.85,
+      "DDR5 8Gb 1Gx8": 1.869,
+      "DDR5 16Gb 2Gx8": 3.397,
+      "LPDDR5 8Gb": 2.022
+    },
+    {
+      "date": "2026-03-20",
+      "DDR4 8Gb 1Gx8": 1.36,
+      "DDR4 16Gb 2Gx8": 2.834,
+      "DDR5 8Gb 1Gx8": 1.791,
+      "DDR5 16Gb 2Gx8": 3.569,
+      "LPDDR5 8Gb": 2.139
+    },
+    {
+      "date": "2026-03-23",
+      "DDR4 8Gb 1Gx8": 1.319,
+      "DDR4 16Gb 2Gx8": 2.699,
+      "DDR5 8Gb 1Gx8": 1.837,
+      "DDR5 16Gb 2Gx8": 3.559,
+      "LPDDR5 8Gb": 2.045
+    },
+    {
+      "date": "2026-03-24",
+      "DDR4 8Gb 1Gx8": 1.362,
+      "DDR4 16Gb 2Gx8": 2.836,
+      "DDR5 8Gb 1Gx8": 1.916,
+      "DDR5 16Gb 2Gx8": 3.47,
+      "LPDDR5 8Gb": 2.157
+    },
+    {
+      "date": "2026-03-25",
+      "DDR4 8Gb 1Gx8": 1.379,
+      "DDR4 16Gb 2Gx8": 2.79,
+      "DDR5 8Gb 1Gx8": 1.867,
+      "DDR5 16Gb 2Gx8": 3.432,
+      "LPDDR5 8Gb": 2.129
+    },
+    {
+      "date": "2026-03-26",
+      "DDR4 8Gb 1Gx8": 1.386,
+      "DDR4 16Gb 2Gx8": 2.874,
+      "DDR5 8Gb 1Gx8": 1.89,
+      "DDR5 16Gb 2Gx8": 3.557,
+      "LPDDR5 8Gb": 2.115
+    },
+    {
+      "date": "2026-03-27",
+      "DDR4 8Gb 1Gx8": 1.34,
+      "DDR4 16Gb 2Gx8": 2.879,
+      "DDR5 8Gb 1Gx8": 1.837,
+      "DDR5 16Gb 2Gx8": 3.43,
+      "LPDDR5 8Gb": 2.146
+    },
+    {
+      "date": "2026-03-30",
+      "DDR4 8Gb 1Gx8": 1.398,
+      "DDR4 16Gb 2Gx8": 2.871,
+      "DDR5 8Gb 1Gx8": 1.901,
+      "DDR5 16Gb 2Gx8": 3.502,
+      "LPDDR5 8Gb": 2.108
+    },
+    {
+      "date": "2026-03-31",
+      "DDR4 8Gb 1Gx8": 1.346,
+      "DDR4 16Gb 2Gx8": 2.884,
+      "DDR5 8Gb 1Gx8": 1.911,
+      "DDR5 16Gb 2Gx8": 3.578,
+      "LPDDR5 8Gb": 2.083
+    },
+    {
+      "date": "2026-04-01",
+      "DDR4 8Gb 1Gx8": 1.334,
+      "DDR4 16Gb 2Gx8": 2.835,
+      "DDR5 8Gb 1Gx8": 1.867,
+      "DDR5 16Gb 2Gx8": 3.613,
+      "LPDDR5 8Gb": 2.095
+    },
+    {
+      "date": "2026-04-02",
+      "DDR4 8Gb 1Gx8": 1.333,
+      "DDR4 16Gb 2Gx8": 2.893,
+      "DDR5 8Gb 1Gx8": 1.822,
+      "DDR5 16Gb 2Gx8": 3.463,
+      "LPDDR5 8Gb": 2.084
+    },
+    {
+      "date": "2026-04-03",
+      "DDR4 8Gb 1Gx8": 1.33,
+      "DDR4 16Gb 2Gx8": 2.826,
+      "DDR5 8Gb 1Gx8": 1.822,
+      "DDR5 16Gb 2Gx8": 3.576,
+      "LPDDR5 8Gb": 2.088
+    },
+    {
+      "date": "2026-04-06",
+      "DDR4 8Gb 1Gx8": 1.353,
+      "DDR4 16Gb 2Gx8": 2.888,
+      "DDR5 8Gb 1Gx8": 1.859,
+      "DDR5 16Gb 2Gx8": 3.527,
+      "LPDDR5 8Gb": 2.111
+    },
+    {
+      "date": "2026-04-07",
+      "DDR4 8Gb 1Gx8": 1.362,
+      "DDR4 16Gb 2Gx8": 2.899,
+      "DDR5 8Gb 1Gx8": 1.896,
+      "DDR5 16Gb 2Gx8": 3.583,
+      "LPDDR5 8Gb": 2.142
+    },
+    {
+      "date": "2026-04-08",
+      "DDR4 8Gb 1Gx8": 1.299,
+      "DDR4 16Gb 2Gx8": 2.743,
+      "DDR5 8Gb 1Gx8": 1.88,
+      "DDR5 16Gb 2Gx8": 3.437,
+      "LPDDR5 8Gb": 2.119
+    },
+    {
+      "date": "2026-04-09",
+      "DDR4 8Gb 1Gx8": 1.337,
+      "DDR4 16Gb 2Gx8": 2.815,
+      "DDR5 8Gb 1Gx8": 1.85,
+      "DDR5 16Gb 2Gx8": 3.533,
+      "LPDDR5 8Gb": 2.134
+    },
+    {
+      "date": "2026-04-10",
+      "DDR4 8Gb 1Gx8": 1.333,
+      "DDR4 16Gb 2Gx8": 2.704,
+      "DDR5 8Gb 1Gx8": 1.807,
+      "DDR5 16Gb 2Gx8": 3.494,
+      "LPDDR5 8Gb": 2.02
+    },
+    {
+      "date": "2026-04-13",
+      "DDR4 8Gb 1Gx8": 1.316,
+      "DDR4 16Gb 2Gx8": 2.801,
+      "DDR5 8Gb 1Gx8": 1.874,
+      "DDR5 16Gb 2Gx8": 3.57,
+      "LPDDR5 8Gb": 2.077
+    },
+    {
+      "date": "2026-04-14",
+      "DDR4 8Gb 1Gx8": 1.365,
+      "DDR4 16Gb 2Gx8": 2.846,
+      "DDR5 8Gb 1Gx8": 1.85,
+      "DDR5 16Gb 2Gx8": 3.423,
+      "LPDDR5 8Gb": 2.127
+    },
+    {
+      "date": "2026-04-15",
+      "DDR4 8Gb 1Gx8": 1.31,
+      "DDR4 16Gb 2Gx8": 2.704,
+      "DDR5 8Gb 1Gx8": 1.865,
+      "DDR5 16Gb 2Gx8": 3.505,
+      "LPDDR5 8Gb": 2.124
+    },
+    {
+      "date": "2026-04-16",
+      "DDR4 8Gb 1Gx8": 1.299,
+      "DDR4 16Gb 2Gx8": 2.797,
+      "DDR5 8Gb 1Gx8": 1.796,
+      "DDR5 16Gb 2Gx8": 3.408,
+      "LPDDR5 8Gb": 2.032
+    },
+    {
+      "date": "2026-04-17",
+      "DDR4 8Gb 1Gx8": 1.319,
+      "DDR4 16Gb 2Gx8": 2.837,
+      "DDR5 8Gb 1Gx8": 1.857,
+      "DDR5 16Gb 2Gx8": 3.531,
+      "LPDDR5 8Gb": 2.029
+    },
+    {
+      "date": "2026-04-20",
+      "DDR4 8Gb 1Gx8": 1.372,
+      "DDR4 16Gb 2Gx8": 2.78,
+      "DDR5 8Gb 1Gx8": 1.786,
+      "DDR5 16Gb 2Gx8": 3.414,
+      "LPDDR5 8Gb": 2.116
+    },
+    {
+      "date": "2026-04-21",
+      "DDR4 8Gb 1Gx8": 1.34,
+      "DDR4 16Gb 2Gx8": 2.7,
+      "DDR5 8Gb 1Gx8": 1.849,
+      "DDR5 16Gb 2Gx8": 3.441,
+      "LPDDR5 8Gb": 2.118
+    },
+    {
+      "date": "2026-04-22",
+      "DDR4 8Gb 1Gx8": 1.33,
+      "DDR4 16Gb 2Gx8": 2.842,
+      "DDR5 8Gb 1Gx8": 1.827,
+      "DDR5 16Gb 2Gx8": 3.501,
+      "LPDDR5 8Gb": 2.136
+    },
+    {
+      "date": "2026-04-23",
+      "DDR4 8Gb 1Gx8": 1.358,
+      "DDR4 16Gb 2Gx8": 2.905,
+      "DDR5 8Gb 1Gx8": 1.877,
+      "DDR5 16Gb 2Gx8": 3.574,
+      "LPDDR5 8Gb": 2.071
+    },
+    {
+      "date": "2026-04-24",
+      "DDR4 8Gb 1Gx8": 1.401,
+      "DDR4 16Gb 2Gx8": 2.793,
+      "DDR5 8Gb 1Gx8": 1.903,
+      "DDR5 16Gb 2Gx8": 3.57,
+      "LPDDR5 8Gb": 2.095
+    },
+    {
+      "date": "2026-04-27",
+      "DDR4 8Gb 1Gx8": 1.394,
+      "DDR4 16Gb 2Gx8": 2.882,
+      "DDR5 8Gb 1Gx8": 1.823,
+      "DDR5 16Gb 2Gx8": 3.49,
+      "LPDDR5 8Gb": 2.097
+    },
+    {
+      "date": "2026-04-28",
+      "DDR4 8Gb 1Gx8": 1.354,
+      "DDR4 16Gb 2Gx8": 2.769,
+      "DDR5 8Gb 1Gx8": 1.903,
+      "DDR5 16Gb 2Gx8": 3.584,
+      "LPDDR5 8Gb": 2.172
+    },
+    {
+      "date": "2026-04-29",
+      "DDR4 8Gb 1Gx8": 1.4,
+      "DDR4 16Gb 2Gx8": 2.787,
+      "DDR5 8Gb 1Gx8": 1.839,
+      "DDR5 16Gb 2Gx8": 3.604,
+      "LPDDR5 8Gb": 2.178
+    },
+    {
+      "date": "2026-04-30",
+      "DDR4 8Gb 1Gx8": 1.39,
+      "DDR4 16Gb 2Gx8": 2.787,
+      "DDR5 8Gb 1Gx8": 1.92,
+      "DDR5 16Gb 2Gx8": 3.581,
+      "LPDDR5 8Gb": 2.091
+    },
+    {
+      "date": "2026-05-01",
+      "DDR4 8Gb 1Gx8": 1.392,
+      "DDR4 16Gb 2Gx8": 2.909,
+      "DDR5 8Gb 1Gx8": 1.911,
+      "DDR5 16Gb 2Gx8": 3.641,
+      "LPDDR5 8Gb": 2.152
+    },
+    {
+      "date": "2026-05-04",
+      "DDR4 8Gb 1Gx8": 1.378,
+      "DDR4 16Gb 2Gx8": 2.805,
+      "DDR5 8Gb 1Gx8": 1.879,
+      "DDR5 16Gb 2Gx8": 3.462,
+      "LPDDR5 8Gb": 2.095
+    },
+    {
+      "date": "2026-05-05",
+      "DDR4 8Gb 1Gx8": 1.358,
+      "DDR4 16Gb 2Gx8": 2.772,
+      "DDR5 8Gb 1Gx8": 1.875,
+      "DDR5 16Gb 2Gx8": 3.45,
+      "LPDDR5 8Gb": 2.108
+    },
+    {
+      "date": "2026-05-06",
+      "DDR4 8Gb 1Gx8": 1.338,
+      "DDR4 16Gb 2Gx8": 2.806,
+      "DDR5 8Gb 1Gx8": 1.91,
+      "DDR5 16Gb 2Gx8": 3.464,
+      "LPDDR5 8Gb": 2.084
+    },
+    {
+      "date": "2026-05-07",
+      "DDR4 8Gb 1Gx8": 1.371,
+      "DDR4 16Gb 2Gx8": 2.823,
+      "DDR5 8Gb 1Gx8": 1.861,
+      "DDR5 16Gb 2Gx8": 3.642,
+      "LPDDR5 8Gb": 2.085
+    },
+    {
+      "date": "2026-05-08",
+      "DDR4 8Gb 1Gx8": 1.342,
+      "DDR4 16Gb 2Gx8": 2.75,
+      "DDR5 8Gb 1Gx8": 1.81,
+      "DDR5 16Gb 2Gx8": 3.533,
+      "LPDDR5 8Gb": 2.117
+    },
+    {
+      "date": "2026-05-11",
+      "DDR4 8Gb 1Gx8": 1.323,
+      "DDR4 16Gb 2Gx8": 2.814,
+      "DDR5 8Gb 1Gx8": 1.834,
+      "DDR5 16Gb 2Gx8": 3.539,
+      "LPDDR5 8Gb": 2.134
+    },
+    {
+      "date": "2026-05-12",
+      "DDR4 8Gb 1Gx8": 1.307,
+      "DDR4 16Gb 2Gx8": 2.763,
+      "DDR5 8Gb 1Gx8": 1.806,
+      "DDR5 16Gb 2Gx8": 3.539,
+      "LPDDR5 8Gb": 2.083
+    },
+    {
+      "date": "2026-05-13",
+      "DDR4 8Gb 1Gx8": 1.34,
+      "DDR4 16Gb 2Gx8": 2.813,
+      "DDR5 8Gb 1Gx8": 1.834,
+      "DDR5 16Gb 2Gx8": 3.478,
+      "LPDDR5 8Gb": 2.066
+    },
+    {
+      "date": "2026-05-14",
+      "DDR4 8Gb 1Gx8": 1.332,
+      "DDR4 16Gb 2Gx8": 2.752,
+      "DDR5 8Gb 1Gx8": 1.811,
+      "DDR5 16Gb 2Gx8": 3.51,
+      "LPDDR5 8Gb": 2.035
+    },
+    {
+      "date": "2026-05-15",
+      "DDR4 8Gb 1Gx8": 1.319,
+      "DDR4 16Gb 2Gx8": 2.838,
+      "DDR5 8Gb 1Gx8": 1.872,
+      "DDR5 16Gb 2Gx8": 3.409,
+      "LPDDR5 8Gb": 2.039
+    },
+    {
+      "date": "2026-05-18",
+      "DDR4 8Gb 1Gx8": 1.309,
+      "DDR4 16Gb 2Gx8": 2.78,
+      "DDR5 8Gb 1Gx8": 1.804,
+      "DDR5 16Gb 2Gx8": 3.411,
+      "LPDDR5 8Gb": 2.133
+    },
+    {
+      "date": "2026-05-19",
+      "DDR4 8Gb 1Gx8": 1.376,
+      "DDR4 16Gb 2Gx8": 2.804,
+      "DDR5 8Gb 1Gx8": 1.875,
+      "DDR5 16Gb 2Gx8": 3.435,
+      "LPDDR5 8Gb": 2.075
+    },
+    {
+      "date": "2026-05-20",
+      "DDR4 8Gb 1Gx8": 1.345,
+      "DDR4 16Gb 2Gx8": 2.761,
+      "DDR5 8Gb 1Gx8": 1.871,
+      "DDR5 16Gb 2Gx8": 3.492,
+      "LPDDR5 8Gb": 2.041
+    },
+    {
+      "date": "2026-05-21",
+      "DDR4 8Gb 1Gx8": 1.33,
+      "DDR4 16Gb 2Gx8": 2.76,
+      "DDR5 8Gb 1Gx8": 1.88,
+      "DDR5 16Gb 2Gx8": 3.528,
+      "LPDDR5 8Gb": 2.019
+    },
+    {
+      "date": "2026-05-22",
+      "DDR4 8Gb 1Gx8": 1.357,
+      "DDR4 16Gb 2Gx8": 2.733,
+      "DDR5 8Gb 1Gx8": 1.85,
+      "DDR5 16Gb 2Gx8": 3.552,
+      "LPDDR5 8Gb": 2.03
+    },
+    {
+      "date": "2026-05-25",
+      "DDR4 8Gb 1Gx8": 1.367,
+      "DDR4 16Gb 2Gx8": 2.747,
+      "DDR5 8Gb 1Gx8": 1.918,
+      "DDR5 16Gb 2Gx8": 3.553,
+      "LPDDR5 8Gb": 2.067
+    },
+    {
+      "date": "2026-05-26",
+      "DDR4 8Gb 1Gx8": 1.351,
+      "DDR4 16Gb 2Gx8": 2.783,
+      "DDR5 8Gb 1Gx8": 1.901,
+      "DDR5 16Gb 2Gx8": 3.539,
+      "LPDDR5 8Gb": 2.172
+    },
+    {
+      "date": "2026-05-27",
+      "DDR4 8Gb 1Gx8": 1.365,
+      "DDR4 16Gb 2Gx8": 2.892,
+      "DDR5 8Gb 1Gx8": 1.832,
+      "DDR5 16Gb 2Gx8": 3.585,
+      "LPDDR5 8Gb": 2.065
+    },
+    {
+      "date": "2026-05-28",
+      "DDR4 8Gb 1Gx8": 1.356,
+      "DDR4 16Gb 2Gx8": 2.804,
+      "DDR5 8Gb 1Gx8": 1.84,
+      "DDR5 16Gb 2Gx8": 3.614,
+      "LPDDR5 8Gb": 2.12
+    },
+    {
+      "date": "2026-05-29",
+      "DDR4 8Gb 1Gx8": 1.353,
+      "DDR4 16Gb 2Gx8": 2.912,
+      "DDR5 8Gb 1Gx8": 1.85,
+      "DDR5 16Gb 2Gx8": 3.482,
+      "LPDDR5 8Gb": 2.146
+    },
+    {
+      "date": "2026-06-01",
+      "DDR4 8Gb 1Gx8": 1.402,
+      "DDR4 16Gb 2Gx8": 2.816,
+      "DDR5 8Gb 1Gx8": 1.82,
+      "DDR5 16Gb 2Gx8": 3.469,
+      "LPDDR5 8Gb": 2.094
+    },
+    {
+      "date": "2026-06-02",
+      "DDR4 8Gb 1Gx8": 1.36,
+      "DDR4 16Gb 2Gx8": 2.791,
+      "DDR5 8Gb 1Gx8": 1.898,
+      "DDR5 16Gb 2Gx8": 3.451,
+      "LPDDR5 8Gb": 2.082
+    },
+    {
+      "date": "2026-06-03",
+      "DDR4 8Gb 1Gx8": 1.382,
+      "DDR4 16Gb 2Gx8": 2.839,
+      "DDR5 8Gb 1Gx8": 1.914,
+      "DDR5 16Gb 2Gx8": 3.501,
+      "LPDDR5 8Gb": 2.084
+    },
+    {
+      "date": "2026-06-04",
+      "DDR4 8Gb 1Gx8": 1.392,
+      "DDR4 16Gb 2Gx8": 2.783,
+      "DDR5 8Gb 1Gx8": 1.819,
+      "DDR5 16Gb 2Gx8": 3.598,
+      "LPDDR5 8Gb": 2.12
+    },
+    {
+      "date": "2026-06-05",
+      "DDR4 8Gb 1Gx8": 1.405,
+      "DDR4 16Gb 2Gx8": 2.851,
+      "DDR5 8Gb 1Gx8": 1.867,
+      "DDR5 16Gb 2Gx8": 3.589,
+      "LPDDR5 8Gb": 2.175
+    },
+    {
+      "date": "2026-06-08",
+      "DDR4 8Gb 1Gx8": 1.378,
+      "DDR4 16Gb 2Gx8": 2.723,
+      "DDR5 8Gb 1Gx8": 1.869,
+      "DDR5 16Gb 2Gx8": 3.425,
+      "LPDDR5 8Gb": 2.123
+    },
+    {
+      "date": "2026-06-09",
+      "DDR4 8Gb 1Gx8": 1.324,
+      "DDR4 16Gb 2Gx8": 2.814,
+      "DDR5 8Gb 1Gx8": 1.797,
+      "DDR5 16Gb 2Gx8": 3.523,
+      "LPDDR5 8Gb": 2.038
+    },
+    {
+      "date": "2026-06-10",
+      "DDR4 8Gb 1Gx8": 1.333,
+      "DDR4 16Gb 2Gx8": 2.73,
+      "DDR5 8Gb 1Gx8": 1.874,
+      "DDR5 16Gb 2Gx8": 3.397,
+      "LPDDR5 8Gb": 2.124
+    },
+    {
+      "date": "2026-06-11",
+      "DDR4 8Gb 1Gx8": 1.33,
+      "DDR4 16Gb 2Gx8": 2.695,
+      "DDR5 8Gb 1Gx8": 1.809,
+      "DDR5 16Gb 2Gx8": 3.496,
+      "LPDDR5 8Gb": 2.094
+    },
+    {
+      "date": "2026-06-12",
+      "DDR4 8Gb 1Gx8": 1.347,
+      "DDR4 16Gb 2Gx8": 2.745,
+      "DDR5 8Gb 1Gx8": 1.885,
+      "DDR5 16Gb 2Gx8": 3.522,
+      "LPDDR5 8Gb": 2.039
+    },
+    {
+      "date": "2026-06-15",
+      "DDR4 8Gb 1Gx8": 1.374,
+      "DDR4 16Gb 2Gx8": 2.852,
+      "DDR5 8Gb 1Gx8": 1.865,
+      "DDR5 16Gb 2Gx8": 3.474,
+      "LPDDR5 8Gb": 2.124
+    },
+    {
+      "date": "2026-06-16",
+      "DDR4 8Gb 1Gx8": 1.315,
+      "DDR4 16Gb 2Gx8": 2.708,
+      "DDR5 8Gb 1Gx8": 1.822,
+      "DDR5 16Gb 2Gx8": 3.545,
+      "LPDDR5 8Gb": 2.12
+    },
+    {
+      "date": "2026-06-17",
+      "DDR4 8Gb 1Gx8": 1.332,
+      "DDR4 16Gb 2Gx8": 2.725,
+      "DDR5 8Gb 1Gx8": 1.884,
+      "DDR5 16Gb 2Gx8": 3.445,
+      "LPDDR5 8Gb": 2.074
+    },
+    {
+      "date": "2026-06-18",
+      "DDR4 8Gb 1Gx8": 1.307,
+      "DDR4 16Gb 2Gx8": 2.83,
+      "DDR5 8Gb 1Gx8": 1.853,
+      "DDR5 16Gb 2Gx8": 3.52,
+      "LPDDR5 8Gb": 2.074
+    },
+    {
+      "date": "2026-06-19",
+      "DDR4 8Gb 1Gx8": 1.346,
+      "DDR4 16Gb 2Gx8": 2.831,
+      "DDR5 8Gb 1Gx8": 1.819,
+      "DDR5 16Gb 2Gx8": 3.484,
+      "LPDDR5 8Gb": 2.105
+    }
+  ],
+  "last_updated": "2026-06-22 14:36:59"
+}

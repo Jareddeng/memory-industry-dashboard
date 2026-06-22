@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>存储行业可视化看板</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/date-fns@2.30.0/index.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">💾</span>
+                <h1>存储行业可视化看板</h1>
+            </div>
+            <div class="meta-info">
+                <span class="update-badge" id="update-badge">🔄 数据更新中...</span>
+                <span class="last-updated" id="last-updated"></span>
+            </div>
+        </div>
+        <nav class="nav-tabs">
+            <button class="nav-tab active" data-section="overview">总览</button>
+            <button class="nav-tab" data-section="prices">价格走势</button>
+            <button class="nav-tab" data-section="stocks">股价追踪</button>
+            <button class="nav-tab" data-section="industry">行业跟踪</button>
+            <button class="nav-tab" data-section="reports">深度报告</button>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <!-- 总览页 -->
+        <section id="overview" class="section active">
+            <div class="section-header">
+                <h2>📊 市场总览</h2>
+            </div>
+            
+            <div class="stock-cards" id="stock-cards">
+                <!-- Stock cards injected by JS -->
+            </div>
+
+            <div class="overview-grid">
+                <div class="overview-card">
+                    <h3>DRAM 现货价格</h3>
+                    <div class="chart-container">
+                        <canvas id="overview-dram-spot"></canvas>
+                    </div>
+                </div>
+                <div class="overview-card">
+                    <h3>NAND 现货价格</h3>
+                    <div class="chart-container">
+                        <canvas id="overview-nand-spot"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="daily-report-preview" id="daily-report-preview">
+                <h3>📰 最新深度报告</h3>
+                <div class="report-content" id="latest-report-content">
+                    <p class="placeholder">报告加载中...</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 价格走势页 -->
+        <section id="prices" class="section">
+            <div class="section-header">
+                <h2>💰 存储价格走势</h2>
+            </div>
+            
+            <div class="chart-grid">
+                <div class="chart-card full-width">
+                    <div class="chart-header">
+                        <h3>DRAM 现货价格走势</h3>
+                        <span class="unit-badge">USD</span>
+                    </div>
+                    <div class="chart-container large">
+                        <canvas id="dram-spot-chart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card full-width">
+                    <div class="chart-header">
+                        <h3>DRAM 合约平均价格</h3>
+                        <span class="unit-badge">USD / 季度</span>
+                    </div>
+                    <div class="chart-container large">
+                        <canvas id="dram-contract-chart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card full-width">
+                    <div class="chart-header">
+                        <h3>NAND Flash 现货价格走势</h3>
+                        <span class="unit-badge">USD</span>
+                    </div>
+                    <div class="chart-container large">
+                        <canvas id="nand-spot-chart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card full-width">
+                    <div class="chart-header">
+                        <h3>NAND Flash 合约平均价格</h3>
+                        <span class="unit-badge">USD / 季度</span>
+                    </div>
+                    <div class="chart-container large">
+                        <canvas id="nand-contract-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 股价追踪页 -->
+        <section id="stocks" class="section">
+            <div class="section-header">
+                <h2>📈 三大厂商股价追踪</h2>
+            </div>
+
+            <div class="stock-detail-cards" id="stock-detail-cards">
+                <!-- Stock detail cards injected by JS -->
+            </div>
+
+            <div class="chart-grid">
+                <div class="chart-card full-width">
+                    <div class="chart-header">
+                        <h3>SK海力士 (000660.KS) - 6个月走势</h3>
+                        <span class="unit-badge">KRW</span>
+                    </div>
+                    <div class="chart-container large">
+                        <canvas id="sk-hynix-chart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card full-width">
+                    <div class="chart-header">
+                        <h3>三星电子 (005930.KS) - 6个月走势</h3>
+                        <span class="unit-badge">KRW</span>
+                    </div>
+                    <div class="chart-container large">
+                        <canvas id="samsung-chart"></canvas>
+                    </div>
+                </div>
+
+                <div class="chart-card full-width">
+                    <div class="chart-header">
+                        <h3>美光科技 (MU) - 6个月走势</h3>
+                        <span class="unit-badge">USD</span>
+                    </div>
+                    <div class="chart-container large">
+                        <canvas id="micron-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 行业跟踪页 -->
+        <section id="industry" class="section">
+            <div class="section-header">
+                <h2>🏭 行业跟踪</h2>
+            </div>
+
+            <div class="industry-grid">
+                <div class="industry-card">
+                    <div class="industry-header">
+                        <h3>🤝 HBM4 长协谈判时间线</h3>
+                    </div>
+                    <div class="timeline" id="hbm-timeline">
+                        <!-- Timeline injected by JS -->
+                    </div>
+                </div>
+
+                <div class="industry-card">
+                    <div class="industry-header">
+                        <h3>🏗️ 存储扩产计划</h3>
+                    </div>
+                    <div class="expansion-tabs">
+                        <button class="exp-tab active" data-company="sk-hynix">SK海力士</button>
+                        <button class="exp-tab" data-company="samsung">三星电子</button>
+                        <button class="exp-tab" data-company="micron">美光科技</button>
+                    </div>
+                    <div class="expansion-content" id="expansion-content">
+                        <!-- Expansion content injected by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 深度报告页 -->
+        <section id="reports" class="section">
+            <div class="section-header">
+                <h2>📰 每日深度报告</h2>
+                <div class="report-controls">
+                    <select id="report-date-selector">
+                        <option value="">选择日期...</option>
+                    </select>
+                    <button class="btn-primary" id="refresh-report-btn">🔄 刷新</button>
+                </div>
+            </div>
+
+            <div class="report-container" id="report-container">
+                <div class="report-status" id="report-status">
+                    <p>📋 报告加载中...</p>
+                </div>
+            </div>
+
+            <div class="report-archive">
+                <h3>📚 历史报告</h3>
+                <div class="report-list" id="report-list">
+                    <!-- Report list injected by JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 存储行业看板 | 数据仅供参考，投资有风险</p>
+        <p class="footer-meta">数据来源: Yahoo Finance, TrendForce, DRAMeXchange, 公司公告</p>
+    </footer>
+
+    <script src="js/data-loader.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

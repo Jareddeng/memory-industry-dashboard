@@ -1,0 +1,96 @@
+{
+  "title": "Memory Industry Capacity Expansion Plans",
+  "last_updated": "2026-06-22 14:36:59",
+  "companies": [
+    {
+      "name": "SK Hynix",
+      "ticker": "000660.KS",
+      "plans": [
+        {
+          "facility": "M15X (清州)",
+          "type": "DRAM",
+          "investment": "约5.3万亿韩元",
+          "timeline": "2024-2026",
+          "status": "建设中",
+          "detail": "1a/1b nm DRAM产线，专注HBM和高性能DDR5"
+        },
+        {
+          "facility": "龙仁集群",
+          "type": "DRAM/NAND",
+          "investment": "约120万亿韩元",
+          "timeline": "2027-2030",
+          "status": "规划",
+          "detail": "全球最大规模半导体集群，包含4座晶圆厂"
+        },
+        {
+          "facility": "大连NAND",
+          "type": "NAND",
+          "investment": "约3万亿韩元",
+          "timeline": "2024-2025",
+          "status": "扩产中",
+          "detail": "收购Intel大连厂后扩产，增加96层/176层NAND产能"
+        }
+      ]
+    },
+    {
+      "name": "Samsung Electronics",
+      "ticker": "005930.KS",
+      "plans": [
+        {
+          "facility": "平泽P3",
+          "type": "DRAM/NAND",
+          "investment": "约30万亿韩元",
+          "timeline": "2023-2025",
+          "status": "运营中",
+          "detail": "全球最大的半导体工厂，生产V9 NAND和1b nm DRAM"
+        },
+        {
+          "facility": "平泽P4",
+          "type": "DRAM",
+          "investment": "约25万亿韩元",
+          "timeline": "2025-2027",
+          "status": "建设中",
+          "detail": "专注HBM3E和HBM4生产，1c nm DRAM产线"
+        },
+        {
+          "facility": "美国泰勒厂",
+          "type": "Foundry/DRAM",
+          "investment": "约170亿美元",
+          "timeline": "2024-2026",
+          "status": "建设中",
+          "detail": "德州泰勒市新厂，响应美国CHIPS法案"
+        }
+      ]
+    },
+    {
+      "name": "Micron Technology",
+      "ticker": "MU",
+      "plans": [
+        {
+          "facility": "爱达荷州总部",
+          "type": "DRAM",
+          "investment": "约15亿美元",
+          "timeline": "2024-2025",
+          "status": "扩产中",
+          "detail": "1β nm DRAM研发产线，HBM3E验证线"
+        },
+        {
+          "facility": "纽约州Clay厂",
+          "type": "DRAM",
+          "investment": "约100亿美元",
+          "timeline": "2025-2028",
+          "status": "建设中",
+          "detail": "CHIPS法案支持，专注HBM和先进DRAM"
+        },
+        {
+          "facility": "日本广岛",
+          "type": "DRAM/NAND",
+          "investment": "约5000亿日元",
+          "timeline": "2024-2026",
+          "status": "扩产中",
+          "detail": "1γ nm DRAM导入，与Tokyo Electron合作EUV"
+        }
+      ]
+    }
+  ]
+}
