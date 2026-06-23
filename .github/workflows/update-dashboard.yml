@@ -55,6 +55,7 @@ jobs:
         if: steps.check_changes.outputs.changed == 'true'
         run: |
           git commit -m "🔄 Auto-update: $(date +'%Y-%m-%d %H:%M')"
+          git pull --rebase origin main || true
           git push
 
   build-and-deploy:
