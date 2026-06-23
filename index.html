@@ -43,13 +43,13 @@
 
             <div class="overview-grid">
                 <div class="overview-card">
-                    <h3>DRAM 现货价格</h3>
+                    <h3>DRAM 现货价格 <span class="meta-tag">日频 · 近6月</span></h3>
                     <div class="chart-container">
                         <canvas id="overview-dram-spot"></canvas>
                     </div>
                 </div>
                 <div class="overview-card">
-                    <h3>NAND 现货价格</h3>
+                    <h3>NAND 现货价格 <span class="meta-tag">日频 · 近6月</span></h3>
                     <div class="chart-container">
                         <canvas id="overview-nand-spot"></canvas>
                     </div>
@@ -71,40 +71,94 @@
             </div>
             
             <div class="chart-grid">
-                <div class="chart-card full-width">
+                <!-- DRAM Spot -->
+                <div class="chart-card full-width" data-chart="dram-spot">
                     <div class="chart-header">
-                        <h3>DRAM 现货价格走势</h3>
-                        <span class="unit-badge">USD</span>
+                        <div class="chart-title-group">
+                            <h3>DRAM 现货价格走势</h3>
+                            <div class="chart-meta" id="dram-spot-meta"></div>
+                        </div>
+                        <div class="chart-controls">
+                            <div class="filter-tabs" id="dram-spot-filter">
+                                <button class="filter-tab active" data-filter="all">全部</button>
+                                <button class="filter-tab" data-filter="die">颗粒</button>
+                                <button class="filter-tab" data-filter="module">模组</button>
+                            </div>
+                            <div class="time-tabs" id="dram-spot-time">
+                                <button class="time-tab active" data-days="all">全部</button>
+                                <button class="time-tab" data-days="365">1年</button>
+                                <button class="time-tab" data-days="180">6月</button>
+                            </div>
+                            <span class="unit-badge">USD</span>
+                        </div>
                     </div>
                     <div class="chart-container large">
                         <canvas id="dram-spot-chart"></canvas>
                     </div>
                 </div>
 
-                <div class="chart-card full-width">
+                <!-- DRAM Contract -->
+                <div class="chart-card full-width" data-chart="dram-contract">
                     <div class="chart-header">
-                        <h3>DRAM 合约平均价格</h3>
-                        <span class="unit-badge">USD / 季度</span>
+                        <div class="chart-title-group">
+                            <h3>DRAM 合约平均价格</h3>
+                            <div class="chart-meta" id="dram-contract-meta"></div>
+                        </div>
+                        <div class="chart-controls">
+                            <div class="filter-tabs" id="dram-contract-filter">
+                                <button class="filter-tab active" data-filter="all">全部</button>
+                                <button class="filter-tab" data-filter="pc">PC</button>
+                                <button class="filter-tab" data-filter="server">Server</button>
+                            </div>
+                            <span class="unit-badge">USD / 季度</span>
+                        </div>
                     </div>
                     <div class="chart-container large">
                         <canvas id="dram-contract-chart"></canvas>
                     </div>
                 </div>
 
-                <div class="chart-card full-width">
+                <!-- NAND Spot -->
+                <div class="chart-card full-width" data-chart="nand-spot">
                     <div class="chart-header">
-                        <h3>NAND Flash 现货价格走势</h3>
-                        <span class="unit-badge">USD</span>
+                        <div class="chart-title-group">
+                            <h3>NAND Flash 现货价格走势</h3>
+                            <div class="chart-meta" id="nand-spot-meta"></div>
+                        </div>
+                        <div class="chart-controls">
+                            <div class="filter-tabs" id="nand-spot-filter">
+                                <button class="filter-tab active" data-filter="all">全部</button>
+                                <button class="filter-tab" data-filter="die">颗粒</button>
+                                <button class="filter-tab" data-filter="module">模组</button>
+                            </div>
+                            <div class="time-tabs" id="nand-spot-time">
+                                <button class="time-tab active" data-days="all">全部</button>
+                                <button class="time-tab" data-days="365">1年</button>
+                                <button class="time-tab" data-days="180">6月</button>
+                            </div>
+                            <span class="unit-badge">USD</span>
+                        </div>
                     </div>
                     <div class="chart-container large">
                         <canvas id="nand-spot-chart"></canvas>
                     </div>
                 </div>
 
-                <div class="chart-card full-width">
+                <!-- NAND Contract -->
+                <div class="chart-card full-width" data-chart="nand-contract">
                     <div class="chart-header">
-                        <h3>NAND Flash 合约平均价格</h3>
-                        <span class="unit-badge">USD / 季度</span>
+                        <div class="chart-title-group">
+                            <h3>NAND Flash 合约平均价格</h3>
+                            <div class="chart-meta" id="nand-contract-meta"></div>
+                        </div>
+                        <div class="chart-controls">
+                            <div class="filter-tabs" id="nand-contract-filter">
+                                <button class="filter-tab active" data-filter="all">全部</button>
+                                <button class="filter-tab" data-filter="emmc">eMMC</button>
+                                <button class="filter-tab" data-filter="ssd">SSD</button>
+                            </div>
+                            <span class="unit-badge">USD / 季度</span>
+                        </div>
                     </div>
                     <div class="chart-container large">
                         <canvas id="nand-contract-chart"></canvas>

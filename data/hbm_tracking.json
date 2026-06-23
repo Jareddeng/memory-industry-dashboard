@@ -1,6 +1,6 @@
 {
-  "title": "HBM4 Long-Term Agreement Negotiation Timeline",
-  "last_updated": "2026-06-22 14:36:59",
+  "title": "HBM4 长协谈判时间线",
+  "last_updated": "2026-06-22 15:22:25",
   "events": [
     {
       "date": "2024-01-15",
@@ -23,26 +23,44 @@
     {
       "date": "2024-09-01",
       "event": "长协谈判启动",
-      "status": "in_progress",
+      "status": "completed",
       "detail": "三大厂商与主要客户（NVIDIA、AMD、Google）开始2025-2027年长协谈判"
     },
     {
       "date": "2024-11-15",
       "event": "美光HBM4样品提交",
-      "status": "in_progress",
+      "status": "completed",
       "detail": "美光向关键客户提交HBM4样品，12层方案"
     },
     {
       "date": "2025-01-15",
       "event": "Q1长协定稿预期",
-      "status": "upcoming",
+      "status": "completed",
       "detail": "预计2025年Q1完成首批HBM4长协定价"
     },
     {
       "date": "2025-03-01",
       "event": "HBM4量产准备",
-      "status": "upcoming",
+      "status": "in_progress",
       "detail": "预计2025年Q2开始小批量HBM4量产"
+    },
+    {
+      "date": "2025-06-15",
+      "event": "HBM4首批量产",
+      "status": "upcoming",
+      "detail": "SK海力士率先量产HBM4，12层堆叠16GB"
+    },
+    {
+      "date": "2025-09-01",
+      "event": "HBM4大规模出货",
+      "status": "upcoming",
+      "detail": "三星、美光跟进HBM4量产，供应量逐步爬坡"
+    },
+    {
+      "date": "2026-01-01",
+      "event": "HBM4长协全面执行",
+      "status": "upcoming",
+      "detail": "2026年长协全面落地，定价框架确定"
     }
   ]
 }

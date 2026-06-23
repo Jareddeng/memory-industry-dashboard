@@ -1,13 +1,13 @@
 {
   "dashboard_name": "存储行业可视化看板",
-  "version": "1.0.0",
-  "last_updated": "2026-06-22 14:36:59",
+  "version": "1.1.0",
+  "last_updated": "2026-06-22 15:22:25",
   "update_frequency": "每日2次（09:00, 21:00）",
   "data_sources": [
-    "Yahoo Finance（股价）",
-    "DRAMeXchange（存储价格）",
-    "TrendForce（行业数据）",
-    "公司财报（扩产计划）"
+    "Yahoo Finance（股价）- 实时",
+    "DRAMeXchange / TrendForce（存储价格）- 待接入",
+    "公司财报（扩产计划）- 手动更新",
+    "行业研报（深度报告）- ClawBot生成"
   ],
-  "disclaimer": "本看板数据仅供参考，投资有风险，决策需谨慎"
+  "disclaimer": "本看板数据仅供参考，不构成投资建议。存储价格数据目前为模拟数据，待接入真实API。"
 }

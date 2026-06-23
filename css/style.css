@@ -831,3 +831,110 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--text-muted);
 }
+
+/* ---- Chart Controls & Meta ---- */
+.chart-title-group {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.chart-title-group h3 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.chart-meta {
+    display: flex;
+    gap: 6px;
+    flex-wrap: wrap;
+    font-size: 11px;
+}
+
+.meta-chip {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.meta-chip.source {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.meta-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    background: #f1f5f9;
+    color: #64748b;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.chart-controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+/* Filter & Time Tabs */
+.filter-tabs, .time-tabs {
+    display: flex;
+    gap: 2px;
+    background: #f1f5f9;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+.filter-tab, .time-tab {
+    padding: 5px 12px;
+    border: none;
+    background: transparent;
+    color: #64748b;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+    line-height: 1.4;
+}
+
+.filter-tab:hover, .time-tab:hover {
+    color: var(--text-primary);
+    background: rgba(255,255,255,0.6);
+}
+
+.filter-tab.active, .time-tab.active {
+    background: white;
+    color: var(--accent-blue);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    font-weight: 600;
+}
+
+/* Responsive for chart controls */
+@media (max-width: 768px) {
+    .chart-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .chart-controls {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .filter-tabs, .time-tabs {
+        flex-wrap: wrap;
+    }
+}
