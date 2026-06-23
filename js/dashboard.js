@@ -143,12 +143,16 @@ const Dashboard = {
             const changeClass = isPositive ? 'positive' : 'negative';
             const changeSymbol = isPositive ? '▲' : '▼';
             const currency = stock.ticker.endsWith('.KS') ? 'KRW' : 'USD';
+            const lastDate = stock.history && stock.history.length > 0 
+                ? stock.history[stock.history.length - 1].date 
+                : (stock.last_updated || '').split(' ')[0];
             return `
                 <div class="stock-card">
                     <div class="stock-card-header">
                         <span class="stock-card-name">${stock.name}</span>
                         <span class="stock-card-ticker">${stock.ticker}</span>
                     </div>
+                    <div class="stock-card-date">📅 ${lastDate}</div>
                     <div class="stock-card-price">${stock.current_price.toLocaleString()} <span style="font-size:14px;font-weight:400;color:var(--text-muted)">${currency}</span></div>
                     <div class="stock-card-change ${changeClass}">
                         <span>${changeSymbol} ${Math.abs(stock.change_pct).toFixed(2)}%</span>
@@ -228,9 +232,16 @@ const Dashboard = {
                 const changeClass = isPositive ? 'positive' : 'negative';
                 const currency = stock.ticker.endsWith('.KS') ? 'KRW' : 'USD';
                 const colors = ['#2563eb', '#059669', '#dc2626'];
+                const lastDate = stock.history && stock.history.length > 0 
+                    ? stock.history[stock.history.length - 1].date 
+                    : (stock.last_updated || '').split(' ')[0];
+                const firstDate = stock.history && stock.history.length > 0 
+                    ? stock.history[0].date 
+                    : '';
                 return `
                     <div class="stock-detail-card">
                         <h4>${stock.name} <span style="font-weight:400;color:var(--text-muted)">(${stock.ticker})</span></h4>
+                        <div class="stock-detail-date">📅 最新交易日: ${lastDate} <span style="color:var(--text-muted);font-size:12px">(${firstDate} 至 ${lastDate})</span></div>
                         <div class="detail-price" style="color:${colors[idx]}">${stock.current_price.toLocaleString()} <span style="font-size:18px">${currency}</span></div>
                         <div class="detail-change ${changeClass}">${isPositive ? '▲' : '▼'} ${Math.abs(stock.change_pct).toFixed(2)}% (${stock.change_amount >= 0 ? '+' : ''}${stock.change_amount.toLocaleString()} ${currency})</div>
                         <div class="detail-stats">
@@ -245,9 +256,18 @@ const Dashboard = {
         }
         if (stockData.stocks) {
             const canvasIds = ['sk-hynix-chart', 'samsung-chart', 'micron-chart'];
+            const metaIds = ['sk-hynix-meta', 'samsung-meta', 'micron-meta'];
             const colors = ['#2563eb', '#059669', '#dc2626'];
             stockData.stocks.forEach((stock, idx) => {
                 if (canvasIds[idx]) ChartRenderer.renderStockChart(canvasIds[idx], stock, colors[idx]);
+                if (metaIds[idx] && stock.history && stock.history.length > 0) {
+                    const firstDate = stock.history[0].date;
+                    const lastDate = stock.history[stock.history.length - 1].date;
+                    const el = document.getElementById(metaIds[idx]);
+                    if (el) {
+                        el.innerHTML = `<span class="meta-chip">日频 (交易日)</span> <span class="meta-chip">${firstDate} 至 ${lastDate}</span> <span class="meta-chip source">Yahoo Finance</span>`;
+                    }
+                }
             });
         }
     },
