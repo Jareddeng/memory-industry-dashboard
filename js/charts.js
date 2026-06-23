@@ -48,6 +48,9 @@ const ChartRenderer = {
         if (!filterType || filterType === 'all') return specs;
         if (filterType === 'die' && data.specs_die) return data.specs_die;
         if (filterType === 'module' && data.specs_module) return data.specs_module;
+        if (filterType === 'ddr5' && data.specs_ddr5) return data.specs_ddr5;
+        if (filterType === 'ddr4' && data.specs_ddr4) return data.specs_ddr4;
+        if (filterType === 'dimm' && data.specs_dimm) return data.specs_dimm;
         if (filterType === 'pc' && data.specs_pc) return data.specs_pc;
         if (filterType === 'server' && data.specs_server) return data.specs_server;
         if (filterType === 'emmc' && data.specs_emmc) return data.specs_emmc;
@@ -108,7 +111,7 @@ const ChartRenderer = {
 
         const datasets = specs.map((spec, idx) => ({
             label: spec,
-            data: data.history.map(h => ({ x: h.quarter, y: h[spec] })),
+            data: data.history.map(h => ({ x: h.date || h.quarter, y: h[spec] })),
             borderColor: this.colors[idx % this.colors.length],
             backgroundColor: this.colors[idx % this.colors.length] + '40',
             borderWidth: 2, pointRadius: 4, pointHoverRadius: 6,
