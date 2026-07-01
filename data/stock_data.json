@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-07-01 05:20:03",
+  "last_updated": "2026-07-01 15:39:18",
   "stocks": [
     {
       "name": "SK Hynix",
       "ticker": "000660.KS",
-      "current_price": 2602500.0,
+      "current_price": NaN,
       "previous_close": 2650000.0,
-      "change_pct": -1.79,
-      "change_amount": -47500.0,
+      "change_pct": NaN,
+      "change_amount": NaN,
       "high_52w": 2987000.0,
       "low_52w": 645700.33,
-      "volume": 3204357,
-      "last_updated": "2026-07-01 05:20:03",
+      "volume": 4746739,
+      "last_updated": "2026-07-01 15:39:18",
       "history": [
         {
           "date": "2026-01-02",
@@ -975,25 +975,25 @@
         },
         {
           "date": "2026-07-01",
-          "close": 2602500.0,
-          "open": 2665000.0,
-          "high": 2723000.0,
-          "low": 2502000.0,
-          "volume": 3204357
+          "close": NaN,
+          "open": NaN,
+          "high": NaN,
+          "low": NaN,
+          "volume": 4746739
         }
       ]
     },
     {
       "name": "Samsung Electronics",
       "ticker": "005930.KS",
-      "current_price": 319500.0,
+      "current_price": NaN,
       "previous_close": 334000.0,
-      "change_pct": -4.34,
-      "change_amount": -14500.0,
+      "change_pct": NaN,
+      "change_amount": NaN,
       "high_52w": 374500.0,
       "low_52w": 119951.72,
-      "volume": 17316092,
-      "last_updated": "2026-07-01 05:20:03",
+      "volume": 27695948,
+      "last_updated": "2026-07-01 15:39:18",
       "history": [
         {
           "date": "2026-01-02",
@@ -1957,25 +1957,25 @@
         },
         {
           "date": "2026-07-01",
-          "close": 319500.0,
-          "open": 334500.0,
-          "high": 339000.0,
-          "low": 311500.0,
-          "volume": 17316092
+          "close": NaN,
+          "open": NaN,
+          "high": NaN,
+          "low": NaN,
+          "volume": 27695948
         }
       ]
     },
     {
       "name": "Micron Technology",
       "ticker": "MU",
-      "current_price": 1154.29,
-      "previous_close": 1145.28,
-      "change_pct": 0.79,
-      "change_amount": 9.01,
+      "current_price": 1061.68,
+      "previous_close": 1154.29,
+      "change_pct": -8.02,
+      "change_amount": -92.61,
       "high_52w": 1255.0,
       "low_52w": 294.74,
-      "volume": 41094400,
-      "last_updated": "2026-07-01 05:20:03",
+      "volume": 21582461,
+      "last_updated": "2026-07-01 15:39:18",
       "history": [
         {
           "date": "2026-01-02",
@@ -2960,6 +2960,14 @@
           "high": 1168.68,
           "low": 1124.66,
           "volume": 41094400
+        },
+        {
+          "date": "2026-07-01",
+          "close": 1061.68,
+          "open": 1082.08,
+          "high": 1097.0,
+          "low": 1048.04,
+          "volume": 21582461
         }
       ]
     }
