@@ -1,7 +1,7 @@
 {
   "dashboard_name": "存储行业可视化看板",
   "version": "1.1.0",
-  "last_updated": "2026-08-09 13:46:14",
+  "last_updated": "2026-08-10 03:09:46",
   "update_frequency": "每日2次（09:00, 21:00）",
   "data_sources": [
     "Yahoo Finance（股价）- 实时",
