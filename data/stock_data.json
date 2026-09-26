@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-25 17:45:07",
+  "last_updated": "2026-09-26 05:48:48",
   "stocks": [
     {
       "name": "SK Hynix",
@@ -11,7 +11,7 @@
       "high_52w": 2986352.58,
       "low_52w": 805690.51,
       "volume": 2947714,
-      "last_updated": "2026-09-25 17:45:06",
+      "last_updated": "2026-09-26 05:48:48",
       "history": [
         {
           "date": "2026-03-23",
@@ -1041,7 +1041,7 @@
       "high_52w": 374087.45,
       "low_52w": 166816.03,
       "volume": 20864376,
-      "last_updated": "2026-09-25 17:45:06",
+      "last_updated": "2026-09-26 05:48:48",
       "history": [
         {
           "date": "2026-03-23",
@@ -2064,23 +2064,15 @@
     {
       "name": "Micron Technology",
       "ticker": "MU",
-      "current_price": 1083.69,
+      "current_price": 1082.28,
       "previous_close": 1080.53,
-      "change_pct": 0.29,
-      "change_amount": 3.16,
+      "change_pct": 0.16,
+      "change_amount": 1.75,
       "high_52w": 1254.81,
       "low_52w": 311.44,
-      "volume": 14088372,
-      "last_updated": "2026-09-25 17:45:07",
+      "volume": 20870400,
+      "last_updated": "2026-09-26 05:48:48",
       "history": [
-        {
-          "date": "2026-03-25",
-          "close": 381.87,
-          "open": 382.78,
-          "high": 388.7,
-          "low": 371.17,
-          "volume": 55328700
-        },
         {
           "date": "2026-03-26",
           "close": 355.26,
@@ -3087,15 +3079,15 @@
           "open": 1049.75,
           "high": 1081.04,
           "low": 1044.0,
-          "volume": 22001600
+          "volume": 22069900
         },
         {
           "date": "2026-09-25",
-          "close": 1083.69,
-          "open": 1095.47,
+          "close": 1082.28,
+          "open": 1095.83,
           "high": 1108.72,
           "low": 1073.0,
-          "volume": 14088372
+          "volume": 20870400
         }
       ]
     }
