@@ -3,7 +3,7 @@
   "subtitle": "季度合约均价 (eMMC + SSD)",
   "unit": "USD",
   "data_frequency": "季度",
-  "time_range": "2021-Q1 至 Q3 2026",
+  "time_range": "2021-Q1 至 Q4 2026",
   "data_source": "模拟数据 (基于行业历史趋势), 待接入真实API",
   "note": "季度数据, 2021-Q1 至 今",
   "specs_emmc": [
@@ -41,33 +41,33 @@
       "year": 2021,
       "quarter_num": 2,
       "32GB (4GB×8) eMMC": 5.56,
-      "64GB (8GB×8) eMMC": 8.77,
-      "128GB (16GB×8) eMMC": 14.9,
-      "256GB SSD": 27.32,
-      "512GB SSD": 44.34,
-      "1TB SSD": 81.58
+      "64GB (8GB×8) eMMC": 8.87,
+      "128GB (16GB×8) eMMC": 13.91,
+      "256GB SSD": 26.11,
+      "512GB SSD": 45.82,
+      "1TB SSD": 76.5
     },
     {
       "quarter": "Q3 2021",
       "year": 2021,
       "quarter_num": 3,
       "32GB (4GB×8) eMMC": 5.9,
-      "64GB (8GB×8) eMMC": 9.15,
-      "128GB (16GB×8) eMMC": 15.21,
-      "256GB SSD": 28.47,
-      "512GB SSD": 46.19,
-      "1TB SSD": 82.21
+      "64GB (8GB×8) eMMC": 9.17,
+      "128GB (16GB×8) eMMC": 13.84,
+      "256GB SSD": 26.41,
+      "512GB SSD": 45.12,
+      "1TB SSD": 79.93
     },
     {
       "quarter": "Q4 2021",
       "year": 2021,
       "quarter_num": 4,
       "32GB (4GB×8) eMMC": 6.19,
-      "64GB (8GB×8) eMMC": 9.44,
-      "128GB (16GB×8) eMMC": 15.09,
-      "256GB SSD": 28.18,
-      "512GB SSD": 48.75,
-      "1TB SSD": 79.76
+      "64GB (8GB×8) eMMC": 8.37,
+      "128GB (16GB×8) eMMC": 13.24,
+      "256GB SSD": 27.65,
+      "512GB SSD": 46.62,
+      "1TB SSD": 78.83
     },
     {
       "quarter": "Q1 2022",
@@ -75,209 +75,220 @@
       "quarter_num": 1,
       "32GB (4GB×8) eMMC": 6.3,
       "64GB (8GB×8) eMMC": 8.48,
-      "128GB (16GB×8) eMMC": 14.75,
-      "256GB SSD": 27.83,
-      "512GB SSD": 49.87,
-      "1TB SSD": 79.36
+      "128GB (16GB×8) eMMC": 13.68,
+      "256GB SSD": 26.64,
+      "512GB SSD": 45.58,
+      "1TB SSD": 81.58
     },
     {
       "quarter": "Q2 2022",
       "year": 2022,
       "quarter_num": 2,
       "32GB (4GB×8) eMMC": 6.02,
-      "64GB (8GB×8) eMMC": 8.1,
-      "128GB (16GB×8) eMMC": 13.02,
-      "256GB SSD": 26.17,
-      "512GB SSD": 47.32,
-      "1TB SSD": 73.62
+      "64GB (8GB×8) eMMC": 8.06,
+      "128GB (16GB×8) eMMC": 13.2,
+      "256GB SSD": 26.87,
+      "512GB SSD": 43.59,
+      "1TB SSD": 75.37
     },
     {
       "quarter": "Q3 2022",
       "year": 2022,
       "quarter_num": 3,
       "32GB (4GB×8) eMMC": 5.72,
-      "64GB (8GB×8) eMMC": 7.68,
-      "128GB (16GB×8) eMMC": 12.68,
-      "256GB SSD": 25.52,
-      "512GB SSD": 43.08,
-      "1TB SSD": 66.53
+      "64GB (8GB×8) eMMC": 7.57,
+      "128GB (16GB×8) eMMC": 12.82,
+      "256GB SSD": 24.74,
+      "512GB SSD": 39.89,
+      "1TB SSD": 70.21
     },
     {
       "quarter": "Q4 2022",
       "year": 2022,
       "quarter_num": 4,
       "32GB (4GB×8) eMMC": 5.37,
-      "64GB (8GB×8) eMMC": 7.19,
-      "128GB (16GB×8) eMMC": 12.24,
-      "256GB SSD": 22.92,
-      "512GB SSD": 41.29,
-      "1TB SSD": 63.91
+      "64GB (8GB×8) eMMC": 6.81,
+      "128GB (16GB×8) eMMC": 12.47,
+      "256GB SSD": 22.47,
+      "512GB SSD": 36.32,
+      "1TB SSD": 65.31
     },
     {
       "quarter": "Q1 2023",
       "year": 2023,
       "quarter_num": 1,
       "32GB (4GB×8) eMMC": 5.51,
-      "64GB (8GB×8) eMMC": 6.92,
-      "128GB (16GB×8) eMMC": 12.73,
-      "256GB SSD": 24.79,
-      "512GB SSD": 40.14,
-      "1TB SSD": 61.74
+      "64GB (8GB×8) eMMC": 6.37,
+      "128GB (16GB×8) eMMC": 12.77,
+      "256GB SSD": 22.02,
+      "512GB SSD": 36.99,
+      "1TB SSD": 66.66
     },
     {
       "quarter": "Q2 2023",
       "year": 2023,
       "quarter_num": 2,
       "32GB (4GB×8) eMMC": 5.2,
-      "64GB (8GB×8) eMMC": 6.25,
-      "128GB (16GB×8) eMMC": 12.89,
-      "256GB SSD": 23.48,
-      "512GB SSD": 39.72,
-      "1TB SSD": 62.28
+      "64GB (8GB×8) eMMC": 6.5,
+      "128GB (16GB×8) eMMC": 13.04,
+      "256GB SSD": 20.65,
+      "512GB SSD": 35.26,
+      "1TB SSD": 63.86
     },
     {
       "quarter": "Q3 2023",
       "year": 2023,
       "quarter_num": 3,
       "32GB (4GB×8) eMMC": 5.47,
-      "64GB (8GB×8) eMMC": 6.39,
-      "128GB (16GB×8) eMMC": 12.87,
-      "256GB SSD": 22.02,
-      "512GB SSD": 37.4,
-      "1TB SSD": 58.83
+      "64GB (8GB×8) eMMC": 6.28,
+      "128GB (16GB×8) eMMC": 12.09,
+      "256GB SSD": 20.1,
+      "512GB SSD": 31.81,
+      "1TB SSD": 62.06
     },
     {
       "quarter": "Q4 2023",
       "year": 2023,
       "quarter_num": 4,
       "32GB (4GB×8) eMMC": 5.74,
-      "64GB (8GB×8) eMMC": 6.17,
-      "128GB (16GB×8) eMMC": 13.21,
-      "256GB SSD": 20.9,
-      "512GB SSD": 35.21,
-      "1TB SSD": 56.33
+      "64GB (8GB×8) eMMC": 5.65,
+      "128GB (16GB×8) eMMC": 12.93,
+      "256GB SSD": 19.58,
+      "512GB SSD": 31.94,
+      "1TB SSD": 60.84
     },
     {
       "quarter": "Q1 2024",
       "year": 2024,
       "quarter_num": 1,
       "32GB (4GB×8) eMMC": 5.84,
-      "64GB (8GB×8) eMMC": 5.75,
-      "128GB (16GB×8) eMMC": 12.55,
-      "256GB SSD": 20.12,
-      "512GB SSD": 35.96,
-      "1TB SSD": 56.01
+      "64GB (8GB×8) eMMC": 5.93,
+      "128GB (16GB×8) eMMC": 13.19,
+      "256GB SSD": 20.93,
+      "512GB SSD": 32.6,
+      "1TB SSD": 59.31
     },
     {
       "quarter": "Q2 2024",
       "year": 2024,
       "quarter_num": 2,
       "32GB (4GB×8) eMMC": 6.66,
-      "64GB (8GB×8) eMMC": 6.67,
-      "128GB (16GB×8) eMMC": 14.91,
-      "256GB SSD": 22.18,
-      "512GB SSD": 38.66,
-      "1TB SSD": 63.08
+      "64GB (8GB×8) eMMC": 6.25,
+      "128GB (16GB×8) eMMC": 13.77,
+      "256GB SSD": 22.61,
+      "512GB SSD": 36.9,
+      "1TB SSD": 63.77
     },
     {
       "quarter": "Q3 2024",
       "year": 2024,
       "quarter_num": 3,
       "32GB (4GB×8) eMMC": 7.56,
-      "64GB (8GB×8) eMMC": 6.97,
-      "128GB (16GB×8) eMMC": 16.24,
-      "256GB SSD": 24.27,
-      "512GB SSD": 39.44,
-      "1TB SSD": 68.16
+      "64GB (8GB×8) eMMC": 7.02,
+      "128GB (16GB×8) eMMC": 14.14,
+      "256GB SSD": 25.45,
+      "512GB SSD": 38.71,
+      "1TB SSD": 67.47
     },
     {
       "quarter": "Q4 2024",
       "year": 2024,
       "quarter_num": 4,
       "32GB (4GB×8) eMMC": 7.96,
-      "64GB (8GB×8) eMMC": 7.75,
-      "128GB (16GB×8) eMMC": 16.78,
-      "256GB SSD": 27.66,
-      "512GB SSD": 44.21,
-      "1TB SSD": 74.14
+      "64GB (8GB×8) eMMC": 7.32,
+      "128GB (16GB×8) eMMC": 15.07,
+      "256GB SSD": 28.05,
+      "512GB SSD": 42.21,
+      "1TB SSD": 70.44
     },
     {
       "quarter": "Q1 2025",
       "year": 2025,
       "quarter_num": 1,
       "32GB (4GB×8) eMMC": 7.69,
-      "64GB (8GB×8) eMMC": 7.4,
-      "128GB (16GB×8) eMMC": 16.02,
-      "256GB SSD": 27.37,
-      "512GB SSD": 44.96,
-      "1TB SSD": 74.8
+      "64GB (8GB×8) eMMC": 7.25,
+      "128GB (16GB×8) eMMC": 15.58,
+      "256GB SSD": 28.46,
+      "512GB SSD": 43.28,
+      "1TB SSD": 73.45
     },
     {
       "quarter": "Q2 2025",
       "year": 2025,
       "quarter_num": 2,
       "32GB (4GB×8) eMMC": 8.13,
-      "64GB (8GB×8) eMMC": 7.48,
-      "128GB (16GB×8) eMMC": 16.12,
-      "256GB SSD": 28.76,
-      "512GB SSD": 46.73,
-      "1TB SSD": 74.72
+      "64GB (8GB×8) eMMC": 7.35,
+      "128GB (16GB×8) eMMC": 16.2,
+      "256GB SSD": 27.07,
+      "512GB SSD": 44.67,
+      "1TB SSD": 73.52
     },
     {
       "quarter": "Q3 2025",
       "year": 2025,
       "quarter_num": 3,
       "32GB (4GB×8) eMMC": 7.7,
-      "64GB (8GB×8) eMMC": 7.58,
-      "128GB (16GB×8) eMMC": 16.93,
-      "256GB SSD": 29.88,
-      "512GB SSD": 45.74,
-      "1TB SSD": 74.76
+      "64GB (8GB×8) eMMC": 7.91,
+      "128GB (16GB×8) eMMC": 17.32,
+      "256GB SSD": 27.9,
+      "512GB SSD": 44.89,
+      "1TB SSD": 75.82
     },
     {
       "quarter": "Q4 2025",
       "year": 2025,
       "quarter_num": 4,
       "32GB (4GB×8) eMMC": 8.13,
-      "64GB (8GB×8) eMMC": 8.14,
-      "128GB (16GB×8) eMMC": 17.58,
-      "256GB SSD": 30.76,
-      "512GB SSD": 46.63,
-      "1TB SSD": 74.12
+      "64GB (8GB×8) eMMC": 7.75,
+      "128GB (16GB×8) eMMC": 19.3,
+      "256GB SSD": 28.52,
+      "512GB SSD": 46.79,
+      "1TB SSD": 75.54
     },
     {
       "quarter": "Q1 2026",
       "year": 2026,
       "quarter_num": 1,
       "32GB (4GB×8) eMMC": 8.32,
-      "64GB (8GB×8) eMMC": 7.84,
-      "128GB (16GB×8) eMMC": 18.56,
-      "256GB SSD": 28.81,
-      "512GB SSD": 47.83,
-      "1TB SSD": 71.52
+      "64GB (8GB×8) eMMC": 7.56,
+      "128GB (16GB×8) eMMC": 19.98,
+      "256GB SSD": 27.67,
+      "512GB SSD": 46.45,
+      "1TB SSD": 78.56
     },
     {
       "quarter": "Q2 2026",
       "year": 2026,
       "quarter_num": 2,
       "32GB (4GB×8) eMMC": 8.08,
-      "64GB (8GB×8) eMMC": 7.71,
-      "128GB (16GB×8) eMMC": 20.62,
-      "256GB SSD": 29.45,
-      "512GB SSD": 48.92,
-      "1TB SSD": 74.89
+      "64GB (8GB×8) eMMC": 7.88,
+      "128GB (16GB×8) eMMC": 21.17,
+      "256GB SSD": 28.55,
+      "512GB SSD": 44.93,
+      "1TB SSD": 80.38
     },
     {
       "quarter": "Q3 2026",
       "year": 2026,
       "quarter_num": 3,
       "32GB (4GB×8) eMMC": 7.29,
-      "64GB (8GB×8) eMMC": 8.03,
-      "128GB (16GB×8) eMMC": 21.49,
-      "256GB SSD": 29.86,
-      "512GB SSD": 48.69,
-      "1TB SSD": 74.43
+      "64GB (8GB×8) eMMC": 8.22,
+      "128GB (16GB×8) eMMC": 22.18,
+      "256GB SSD": 29.85,
+      "512GB SSD": 45.1,
+      "1TB SSD": 83.39
+    },
+    {
+      "quarter": "Q4 2026",
+      "year": 2026,
+      "quarter_num": 4,
+      "32GB (4GB×8) eMMC": 7.46,
+      "64GB (8GB×8) eMMC": 8.33,
+      "128GB (16GB×8) eMMC": 21.37,
+      "256GB SSD": 30.75,
+      "512GB SSD": 44.87,
+      "1TB SSD": 84.0
     }
   ],
-  "last_updated": "2026-09-30 18:15:27"
+  "last_updated": "2026-10-01 06:47:41"
 }
