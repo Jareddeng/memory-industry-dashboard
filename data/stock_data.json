@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-11-03 19:56:41",
+  "last_updated": "2026-11-04 07:12:47",
   "stocks": [
     {
       "name": "SK Hynix",
       "ticker": "000660.KS",
-      "current_price": 1472000.0,
-      "previous_close": 1418000.0,
-      "change_pct": 3.81,
-      "change_amount": 54000.0,
+      "current_price": 1396000.0,
+      "previous_close": 1398000.0,
+      "change_pct": -0.14,
+      "change_amount": -2000.0,
       "high_52w": 2986352.58,
       "low_52w": 1171000.0,
-      "volume": 2594536,
-      "last_updated": "2026-11-03 19:56:40",
+      "volume": 4583428,
+      "last_updated": "2026-11-04 07:12:46",
       "history": [
         {
           "date": "2026-05-04",
@@ -988,20 +988,36 @@
           "high": 1498000.0,
           "low": 1389000.0,
           "volume": 2594536
+        },
+        {
+          "date": "2026-11-03",
+          "close": 1398000.0,
+          "open": 1410000.0,
+          "high": 1433000.0,
+          "low": 1379000.0,
+          "volume": 2304051
+        },
+        {
+          "date": "2026-11-04",
+          "close": 1396000.0,
+          "open": 1458000.0,
+          "high": 1476000.0,
+          "low": 1303000.0,
+          "volume": 4583428
         }
       ]
     },
     {
       "name": "Samsung Electronics",
       "ticker": "005930.KS",
-      "current_price": 229000.0,
-      "previous_close": 225000.0,
-      "change_pct": 1.78,
-      "change_amount": 4000.0,
+      "current_price": 218000.0,
+      "previous_close": 219500.0,
+      "change_pct": -0.68,
+      "change_amount": -1500.0,
       "high_52w": 367712.75,
       "low_52w": 185975.9,
-      "volume": 14537981,
-      "last_updated": "2026-11-03 19:56:40",
+      "volume": 22504788,
+      "last_updated": "2026-11-04 07:12:46",
       "history": [
         {
           "date": "2026-05-04",
@@ -1978,20 +1994,36 @@
           "high": 232000.0,
           "low": 217000.0,
           "volume": 14537981
+        },
+        {
+          "date": "2026-11-03",
+          "close": 219500.0,
+          "open": 220500.0,
+          "high": 223000.0,
+          "low": 217000.0,
+          "volume": 13391670
+        },
+        {
+          "date": "2026-11-04",
+          "close": 218000.0,
+          "open": 226500.0,
+          "high": 228000.0,
+          "low": 208000.0,
+          "volume": 22504788
         }
       ]
     },
     {
       "name": "Micron Technology",
       "ticker": "MU",
-      "current_price": 846.71,
+      "current_price": 855.1,
       "previous_close": 833.59,
-      "change_pct": 1.57,
-      "change_amount": 13.12,
+      "change_pct": 2.58,
+      "change_amount": 21.51,
       "high_52w": 1254.61,
       "low_52w": 557.59,
-      "volume": 15336991,
-      "last_updated": "2026-11-03 19:56:41",
+      "volume": 20973600,
+      "last_updated": "2026-11-04 07:12:47",
       "history": [
         {
           "date": "2026-05-04",
@@ -3011,11 +3043,11 @@
         },
         {
           "date": "2026-11-03",
-          "close": 846.71,
-          "open": 859.81,
+          "close": 855.1,
+          "open": 859.93,
           "high": 871.49,
           "low": 845.25,
-          "volume": 15336991
+          "volume": 20973600
         }
       ]
     }
