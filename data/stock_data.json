@@ -1,40 +1,40 @@
 {
-  "last_updated": "2026-11-19 08:21:39",
+  "last_updated": "2026-11-19 21:09:10",
   "stocks": [
     {
       "name": "SK Hynix",
       "ticker": "000660.KS",
-      "current_price": 1183000.0,
-      "previous_close": 1144000.0,
-      "change_pct": 3.41,
-      "change_amount": 39000.0,
+      "current_price": 1144000.0,
+      "previous_close": 1098000.0,
+      "change_pct": 4.19,
+      "change_amount": 46000.0,
       "high_52w": 2986352.58,
       "low_52w": 1089000.0,
-      "volume": 2765356,
-      "last_updated": "2026-11-19 08:21:39",
+      "volume": 3547671,
+      "last_updated": "2026-11-19 21:09:09",
       "history": [
         {
           "date": "2026-05-19",
-          "close": 1744330.0,
-          "open": 1790312.34,
-          "high": 1822300.05,
-          "low": 1739331.92,
+          "close": 1744330.12,
+          "open": 1790312.47,
+          "high": 1822300.18,
+          "low": 1739332.04,
           "volume": 4575855
         },
         {
           "date": "2026-05-20",
-          "close": 1744330.0,
-          "open": 1742330.77,
-          "high": 1777317.33,
-          "low": 1689351.12,
+          "close": 1744330.12,
+          "open": 1742330.89,
+          "high": 1777317.46,
+          "low": 1689351.24,
           "volume": 5535123
         },
         {
           "date": "2026-05-21",
-          "close": 1939255.12,
-          "open": 1800308.49,
-          "high": 1953249.75,
-          "low": 1795310.41,
+          "close": 1939255.25,
+          "open": 1800308.61,
+          "high": 1953249.88,
+          "low": 1795310.53,
           "volume": 5096690
         },
         {
@@ -1004,28 +1004,20 @@
           "high": 1173000.0,
           "low": 1108000.0,
           "volume": 3547671
-        },
-        {
-          "date": "2026-11-19",
-          "close": 1183000.0,
-          "open": 1154000.0,
-          "high": 1186000.0,
-          "low": 1115000.0,
-          "volume": 2765356
         }
       ]
     },
     {
       "name": "Samsung Electronics",
       "ticker": "005930.KS",
-      "current_price": 196900.0,
-      "previous_close": 194700.0,
-      "change_pct": 1.13,
-      "change_amount": 2200.0,
+      "current_price": 194700.0,
+      "previous_close": 190300.0,
+      "change_pct": 2.31,
+      "change_amount": 4400.0,
       "high_52w": 367712.72,
       "low_52w": 179200.0,
-      "volume": 12285442,
-      "last_updated": "2026-11-19 08:21:39",
+      "volume": 17692254,
+      "last_updated": "2026-11-19 21:09:10",
       "history": [
         {
           "date": "2026-05-19",
@@ -2018,37 +2010,21 @@
           "high": 199950.0,
           "low": 188800.0,
           "volume": 17692254
-        },
-        {
-          "date": "2026-11-19",
-          "close": 196900.0,
-          "open": 196000.0,
-          "high": 196900.0,
-          "low": 189800.0,
-          "volume": 12285442
         }
       ]
     },
     {
       "name": "Micron Technology",
       "ticker": "MU",
-      "current_price": 705.27,
-      "previous_close": 712.42,
-      "change_pct": -1.0,
-      "change_amount": -7.15,
+      "current_price": 690.44,
+      "previous_close": 705.27,
+      "change_pct": -2.1,
+      "change_amount": -14.83,
       "high_52w": 1254.61,
       "low_52w": 650.0,
-      "volume": 27169300,
-      "last_updated": "2026-11-19 08:21:39",
+      "volume": 34135084,
+      "last_updated": "2026-11-19 21:09:10",
       "history": [
-        {
-          "date": "2026-05-19",
-          "close": 698.52,
-          "open": 665.37,
-          "high": 725.72,
-          "low": 652.01,
-          "volume": 61792100
-        },
         {
           "date": "2026-05-20",
           "close": 731.76,
@@ -3063,7 +3039,15 @@
           "open": 718.5,
           "high": 722.96,
           "low": 687.33,
-          "volume": 27169300
+          "volume": 27515600
+        },
+        {
+          "date": "2026-11-19",
+          "close": 690.44,
+          "open": 740.43,
+          "high": 760.0,
+          "low": 689.28,
+          "volume": 34135084
         }
       ]
     }
