@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25 09:29:56",
+  "last_updated": "2026-11-25 22:07:06",
   "stocks": [
     {
       "name": "SK Hynix",
@@ -10,8 +10,8 @@
       "change_amount": -128000.0,
       "high_52w": 2986352.58,
       "low_52w": 1027000.0,
-      "volume": 4119542,
-      "last_updated": "2026-11-25 09:29:56",
+      "volume": 3862104,
+      "last_updated": "2026-11-25 22:07:06",
       "history": [
         {
           "date": "2026-05-26",
@@ -1011,7 +1011,7 @@
           "open": 1094000.0,
           "high": 1097000.0,
           "low": 1027000.0,
-          "volume": 4119542
+          "volume": 3862104
         }
       ]
     },
@@ -1024,8 +1024,8 @@
       "change_amount": -18700.0,
       "high_52w": 367712.75,
       "low_52w": 170000.0,
-      "volume": 22961012,
-      "last_updated": "2026-11-25 09:29:56",
+      "volume": 22046619,
+      "last_updated": "2026-11-25 22:07:06",
       "history": [
         {
           "date": "2026-05-26",
@@ -2025,21 +2025,21 @@
           "open": 178500.0,
           "high": 179900.0,
           "low": 170000.0,
-          "volume": 22961012
+          "volume": 22046619
         }
       ]
     },
     {
       "name": "Micron Technology",
       "ticker": "MU",
-      "current_price": 629.79,
-      "previous_close": 707.7,
-      "change_pct": -11.01,
-      "change_amount": -77.91,
+      "current_price": 601.25,
+      "previous_close": 629.79,
+      "change_pct": -4.53,
+      "change_amount": -28.54,
       "high_52w": 1254.61,
-      "low_52w": 585.25,
-      "volume": 38858600,
-      "last_updated": "2026-11-25 09:29:56",
+      "low_52w": 548.13,
+      "volume": 52310650,
+      "last_updated": "2026-11-25 22:07:06",
       "history": [
         {
           "date": "2026-05-26",
@@ -3063,7 +3063,15 @@
           "open": 669.39,
           "high": 672.07,
           "low": 622.22,
-          "volume": 38858600
+          "volume": 39141400
+        },
+        {
+          "date": "2026-11-25",
+          "close": 601.25,
+          "open": 574.96,
+          "high": 604.94,
+          "low": 548.13,
+          "volume": 52310650
         }
       ]
     }
