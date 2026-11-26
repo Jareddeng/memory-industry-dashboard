@@ -1,17 +1,17 @@
 {
-  "last_updated": "2026-11-25 22:07:06",
+  "last_updated": "2026-11-26 09:08:03",
   "stocks": [
     {
       "name": "SK Hynix",
       "ticker": "000660.KS",
-      "current_price": 1030000.0,
-      "previous_close": 1158000.0,
-      "change_pct": -11.05,
-      "change_amount": -128000.0,
+      "current_price": 1053000.0,
+      "previous_close": 1030000.0,
+      "change_pct": 2.23,
+      "change_amount": 23000.0,
       "high_52w": 2986352.58,
       "low_52w": 1027000.0,
-      "volume": 3862104,
-      "last_updated": "2026-11-25 22:07:06",
+      "volume": 3579964,
+      "last_updated": "2026-11-26 09:08:02",
       "history": [
         {
           "date": "2026-05-26",
@@ -1012,20 +1012,28 @@
           "high": 1097000.0,
           "low": 1027000.0,
           "volume": 3862104
+        },
+        {
+          "date": "2026-11-26",
+          "close": 1053000.0,
+          "open": 1053000.0,
+          "high": 1098000.0,
+          "low": 1041000.0,
+          "volume": 3579964
         }
       ]
     },
     {
       "name": "Samsung Electronics",
       "ticker": "005930.KS",
-      "current_price": 170700.0,
-      "previous_close": 189400.0,
-      "change_pct": -9.87,
-      "change_amount": -18700.0,
+      "current_price": 171300.0,
+      "previous_close": 170700.0,
+      "change_pct": 0.35,
+      "change_amount": 600.0,
       "high_52w": 367712.75,
       "low_52w": 170000.0,
-      "volume": 22046619,
-      "last_updated": "2026-11-25 22:07:06",
+      "volume": 14407728,
+      "last_updated": "2026-11-26 09:08:03",
       "history": [
         {
           "date": "2026-05-26",
@@ -2026,6 +2034,14 @@
           "high": 179900.0,
           "low": 170000.0,
           "volume": 22046619
+        },
+        {
+          "date": "2026-11-26",
+          "close": 171300.0,
+          "open": 172900.0,
+          "high": 176700.0,
+          "low": 170700.0,
+          "volume": 14407728
         }
       ]
     },
@@ -2038,8 +2054,8 @@
       "change_amount": -28.54,
       "high_52w": 1254.61,
       "low_52w": 548.13,
-      "volume": 52310650,
-      "last_updated": "2026-11-25 22:07:06",
+      "volume": 52470000,
+      "last_updated": "2026-11-26 09:08:03",
       "history": [
         {
           "date": "2026-05-26",
@@ -3069,9 +3085,9 @@
           "date": "2026-11-25",
           "close": 601.25,
           "open": 574.96,
-          "high": 604.94,
+          "high": 604.95,
           "low": 548.13,
-          "volume": 52310650
+          "volume": 52470000
         }
       ]
     }
